@@ -1,0 +1,6 @@
+framework module uds_ios_theme_public_mobile {
+  umbrella header "uds-ios-theme-public-mobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

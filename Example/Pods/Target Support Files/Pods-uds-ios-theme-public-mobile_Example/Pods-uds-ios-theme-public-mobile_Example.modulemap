@@ -1,0 +1,6 @@
+framework module Pods_uds_ios_theme_public_mobile_Example {
+  umbrella header "Pods-uds-ios-theme-public-mobile_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

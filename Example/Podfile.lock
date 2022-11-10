@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - uds-ios-theme-public-mobile (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - uds-ios-theme-public-mobile (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  uds-ios-theme-public-mobile:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  uds-ios-theme-public-mobile: 2fa0c90c8315f874a1e4b8238b6816a10c6a5b99
+
+PODFILE CHECKSUM: 34b2f1bda57df0cf2ea2af4b2b38901f9d089156
+
+COCOAPODS: 1.11.3
