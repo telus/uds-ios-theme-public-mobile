@@ -3379,8 +3379,8 @@
         "borderBottomWidth": 0,
         "buttonClearance": 20,
         "gutter": 4,
-        "nextIcon": null,
-        "previousIcon": null,
+        "nextIcon": "PaletteIconChevronRight",
+        "previousIcon": "PaletteIconChevronLeft",
         "space": 2
       }
     },
