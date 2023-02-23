@@ -4215,7 +4215,7 @@
       "appearances": {
         "space": {
           "description": "Index of the intended position on the spacing scale",
-          "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+          "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "type": "state"
         }
       },
@@ -4307,7 +4307,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.10.0",
+    "themeTokensVersion": "2.11.0",
     "name": "theme-public-mobile"
   }
 }
