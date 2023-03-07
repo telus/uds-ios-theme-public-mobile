@@ -761,10 +761,22 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
         "iconDisplace": 0,
         "iconSize": 24,
         "iconSpace": 0,
         "leftIcon": null,
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "rightIcon": null,
         "textLine": "none"
       }
@@ -4307,7 +4319,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.11.0",
+    "themeTokensVersion": "2.12.0",
     "name": "theme-public-mobile"
   }
 }
