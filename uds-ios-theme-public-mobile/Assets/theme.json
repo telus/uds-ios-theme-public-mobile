@@ -14,6 +14,39 @@
         "thickness": 4
       }
     },
+    "Badge": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "fontName": "CerebriSans",
+        "fontWeight": 400,
+        "gradient": null,
+        "paddingBottom": 2,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 2
+      }
+    },
     "Box": {
       "appearances": {
         "background": {
@@ -4321,7 +4354,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.13.0",
+    "themeTokensVersion": "2.14.0",
     "name": "theme-public-mobile"
   }
 }
