@@ -2279,6 +2279,12 @@
         "itemBulletContainerWidth": 16,
         "itemBulletHeight": 4,
         "itemBulletWidth": 4,
+        "itemFontColor": {
+          "red": 0.01176,
+          "green": 0.25098,
+          "blue": 0.27059,
+          "alpha": 1
+        },
         "itemFontName": "CerebriSans",
         "itemFontSize": 16,
         "itemFontWeight": 350,
@@ -4354,7 +4360,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.14.0",
+    "themeTokensVersion": "2.15.0",
     "name": "theme-public-mobile"
   }
 }
