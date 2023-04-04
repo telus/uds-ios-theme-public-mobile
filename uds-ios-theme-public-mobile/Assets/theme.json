@@ -2750,6 +2750,57 @@
         "space": 2
       }
     },
+    "Ribbon": {
+      "appearances": {
+        "purpose": {
+          "type": "variant",
+          "values": ["offer", "default", "editorial"]
+        }
+      },
+      "rules": [],
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "boxShadowColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "boxShadowPaddingBottom": 2,
+        "boxShadowPaddingLeft": 2,
+        "boxShadowPaddingRight": 2,
+        "boxShadowPaddingTop": 2,
+        "curveAfterBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "curveAfterHeight": 4,
+        "curveAfterRadius": 8,
+        "curveAfterWidth": 8,
+        "curveBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "curveHeight": 8,
+        "curveMarginTop": 4,
+        "curveWidth": 8,
+        "gradient": null,
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 4
+      }
+    },
     "Search": {
       "appearances": {
         "focus": {
