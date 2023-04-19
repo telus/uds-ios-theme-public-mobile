@@ -1565,6 +1565,13 @@
         "shadow": null
       }
     },
+    "Image": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "borderRadius": 4
+      }
+    },
     "InputLabel": {
       "appearances": {},
       "rules": [],
@@ -1765,7 +1772,11 @@
             "viewport": ["xs", "sm"]
           },
           "tokens": {
-            "height": "100%"
+            "height": "100%",
+            "paddingBottom": 24,
+            "paddingLeft": 24,
+            "paddingRight": 24,
+            "paddingTop": 24
           }
         },
         {
@@ -1804,7 +1815,19 @@
           "blue": 1,
           "alpha": 1
         },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "borderRadius": 8,
+        "cancelButtonColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
         "closeIcon": "PaletteIconError",
         "closeIconColor": {
           "red": 0.50588,
@@ -1818,11 +1841,21 @@
         "containerPaddingLeft": 0,
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
+        "gap": 16,
+        "headingColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "headingPaddingRight": 24,
         "height": null,
+        "marginLeft": 24,
+        "marginRight": 24,
         "maxWidth": "100%",
         "paddingBottom": 16,
-        "paddingLeft": 16,
-        "paddingRight": 16,
+        "paddingLeft": 32,
+        "paddingRight": 32,
         "paddingTop": 16,
         "shadow": {
           "inset": false,
@@ -1836,7 +1869,8 @@
             "blue": 0,
             "alpha": 0
           }
-        }
+        },
+        "subHeadingMarginTop": 8
       }
     },
     "Notification": {
@@ -3975,6 +4009,81 @@
         "showStepTrackerLabel": true
       }
     },
+    "Table": {
+      "appearances": {
+        "spacing": {
+          "type": "variant",
+          "values": ["compact"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "spacing": "compact"
+          },
+          "tokens": {
+            "cellPaddingBottom": 8,
+            "cellPaddingTop": 8
+          }
+        }
+      ],
+      "tokens": {
+        "cellBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "cellBoxShadowColor": {
+          "red": 0.85882,
+          "green": 0.84314,
+          "blue": 0.78824,
+          "alpha": 1
+        },
+        "cellHeadingBackground": {
+          "red": 0.85882,
+          "green": 0.84314,
+          "blue": 0.78824,
+          "alpha": 1
+        },
+        "cellHeadingBoxShadowColor": {
+          "red": 0.85882,
+          "green": 0.84314,
+          "blue": 0.78824,
+          "alpha": 1
+        },
+        "cellPaddingBottom": 16,
+        "cellPaddingLeft": 16,
+        "cellPaddingRight": 16,
+        "cellPaddingTop": 16,
+        "cellRowHeadingBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "cellStickyShadow": {
+          "inset": false,
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 8,
+          "spread": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0.1
+          }
+        },
+        "cellSubheadingBackground": {
+          "red": 0.85882,
+          "green": 0.84314,
+          "blue": 0.78824,
+          "alpha": 1
+        },
+        "tablePaddingBottom": 24
+      }
+    },
     "Tabs": {
       "appearances": {},
       "rules": [],
@@ -4468,6 +4577,73 @@
         "timelineContainerDirection": "column"
       }
     },
+    "Toast": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "animationBackgroundColorAfter": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationBackgroundColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationColorAfter": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationDivColorAfter": {
+          "red": 0.01176,
+          "green": 0.25098,
+          "blue": 0.27059,
+          "alpha": 1
+        },
+        "animationDivColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationFillColorAfter": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationFillColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationHeightAfter": 24,
+        "animationHeightBefore": 0,
+        "animationPaddingBottomAfter": 16,
+        "animationPaddingBottomBefore": 0,
+        "animationPaddingTopAfter": 16,
+        "animationPaddingTopBefore": 0,
+        "containerBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "containerGap": 12
+      }
+    },
     "ToggleSwitch": {
       "appearances": {
         "inactive": {
@@ -4794,6 +4970,20 @@
         "textTransform": "none"
       }
     },
+    "WaffleGrid": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "itemBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "itemPadding": 16,
+        "rowBorderWidth": 1
+      }
+    },
     "spacingScale": {
       "appearances": {
         "space": {
@@ -4890,7 +5080,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.18.0",
+    "themeTokensVersion": "2.19.0",
     "name": "theme-public-mobile"
   }
 }
