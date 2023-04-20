@@ -863,6 +863,7 @@
           "blue": 0,
           "alpha": 1
         },
+        "height": 40,
         "iconDisplace": 0,
         "iconSize": 24,
         "iconSpace": 0,
@@ -874,7 +875,8 @@
           "alpha": 0
         },
         "rightIcon": null,
-        "textLine": "none"
+        "textLine": "none",
+        "textLineHeight": 1.9
       }
     },
     "DatePicker": {
@@ -3804,6 +3806,35 @@
         "paddingVertical": 8
       }
     },
+    "Spinner": {
+      "appearances": {
+        "size": {
+          "type": "variant",
+          "values": ["small"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "size": 24,
+            "thickness": 2
+          }
+        }
+      ],
+      "tokens": {
+        "fullScreenOverLayBackground": {
+          "red": 0.01961,
+          "green": 0.43529,
+          "blue": 0.47059,
+          "alpha": 1
+        },
+        "size": 48,
+        "thickness": 4
+      }
+    },
     "StackView": {
       "appearances": {},
       "rules": [],
@@ -5088,7 +5119,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.20.0",
+    "themeTokensVersion": "2.21.0",
     "name": "theme-public-mobile"
   }
 }
