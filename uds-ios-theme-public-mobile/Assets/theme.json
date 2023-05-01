@@ -882,7 +882,7 @@
           "blue": 0,
           "alpha": 1
         },
-        "height": 40,
+        "fontSize": 16,
         "iconDisplace": 0,
         "iconSize": 24,
         "iconSpace": 0,
@@ -5305,18 +5305,6 @@
           "blue": 1,
           "alpha": 1
         },
-        "animationFillColorAfter": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
-        "animationFillColorBefore": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
         "animationHeightAfter": 24,
         "animationHeightBefore": 0,
         "animationPaddingBottomAfter": 16,
@@ -5944,7 +5932,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.23.0",
+    "themeTokensVersion": "2.24.0",
     "name": "theme-public-mobile"
   }
 }
