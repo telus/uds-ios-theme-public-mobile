@@ -40,6 +40,9 @@
             "{appearances.ChevronLink.focus}",
             "{appearances.ChevronLink.hover}",
             "{appearances.ChevronLink.pressed}",
+            "{appearances.DatePicker.pressed}",
+            "{appearances.DatePicker.selected}",
+            "{appearances.DatePicker.focus}",
             "{appearances.ExpandCollapseControl.pressed}",
             "{appearances.ExpandCollapseControl.hover}",
             "{appearances.ExpandCollapseControl.focus}",
@@ -229,8 +232,8 @@
         },
         {
           "const": "{system.border.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#border"
@@ -354,13 +357,13 @@
         },
         {
           "const": "{system.color.transparent}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.color.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#color"
@@ -379,8 +382,8 @@
         },
         {
           "const": "{system.duration.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#duration"
@@ -479,8 +482,8 @@
         },
         {
           "const": "{system.icon.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#icon"
@@ -509,8 +512,8 @@
         },
         {
           "const": "{system.letterSpacing.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#letterSpacing"
@@ -584,8 +587,8 @@
         },
         {
           "const": "{system.opacity.opaque}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#opacity"
@@ -629,13 +632,13 @@
         },
         {
           "const": "{system.radius.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.radius.round}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#radius"
@@ -659,8 +662,8 @@
         },
         {
           "const": "{system.shadow.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#shadow"
@@ -819,48 +822,48 @@
         },
         {
           "const": "{system.size.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.full}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.twoThirds}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportXs}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportSm}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportMd}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportLg}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportXl}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#size"
@@ -924,8 +927,8 @@
       "anyOf": [
         {
           "const": "{system.gradient.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#gradient"
@@ -934,18 +937,18 @@
       "anyOf": [
         {
           "const": "{system.flexJustifyContent.center}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexJustifyContent.flexStart}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexJustifyContent.spaceBetween}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#flexJustifyContent"
@@ -954,18 +957,18 @@
       "anyOf": [
         {
           "const": "{system.flexAlign.center}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexAlign.flexStart}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexAlign.stretch}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#flexAlign"
@@ -974,63 +977,63 @@
       "anyOf": [
         {
           "const": "{system.integer.0}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.1}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.2}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.3}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.4}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.5}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.6}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.7}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.8}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.9}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.10}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.11}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "type": "string",
@@ -1043,18 +1046,18 @@
       "anyOf": [
         {
           "const": "{system.textLine.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.textLine.underline}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.textLine.strikethrough}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#textLine"
@@ -1063,8 +1066,8 @@
       "anyOf": [
         {
           "const": "{system.textLineStyle.solid}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#textLineStyle"
@@ -1073,23 +1076,23 @@
       "anyOf": [
         {
           "const": "{system.position.bottom}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.position.left}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.position.right}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.position.top}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#position"
@@ -1098,13 +1101,13 @@
       "anyOf": [
         {
           "const": "{system.direction.column}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.direction.row}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#direction"
@@ -1113,13 +1116,13 @@
       "anyOf": [
         {
           "const": "{system.show.true}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.show.false}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#show"
@@ -1128,13 +1131,13 @@
       "anyOf": [
         {
           "const": "{system.borderStyle.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.borderStyle.solid}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#borderStyle"
@@ -1143,18 +1146,18 @@
       "anyOf": [
         {
           "const": "{system.verticalAlign.top}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.verticalAlign.middle}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.verticalAlign.baseline}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#verticalAlign"
@@ -1163,18 +1166,18 @@
       "anyOf": [
         {
           "const": "{system.iconScale.scale1}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.iconScale.scale1_10}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.iconScale.scale1_25}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#iconScale"
@@ -1183,18 +1186,18 @@
       "anyOf": [
         {
           "const": "{system.textAlign.left}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.textAlign.center}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.textAlign.right}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#textAlign"
@@ -1203,13 +1206,13 @@
       "anyOf": [
         {
           "const": "{system.textTransform.none}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         },
         {
           "const": "{system.textTransform.uppercase}",
-          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.5 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.5` **system** tokens ⚙️"
         }
       ],
       "$id": "#textTransform"
@@ -3546,6 +3549,9 @@
                 "topTextFontSize": {
                   "$ref": "#fontSize"
                 },
+                "strikeThroughPosition": {
+                  "$ref": "#size"
+                },
                 "topTextLineHeight": {
                   "$ref": "#lineHeight"
                 },
@@ -3639,6 +3645,7 @@
                 "fontColor",
                 "dividerColor",
                 "topTextFontSize",
+                "strikeThroughPosition",
                 "topTextLineHeight",
                 "currencySymbolFontSize",
                 "currencySymbolLineHeight",
@@ -3719,6 +3726,9 @@
                       },
                       "topTextFontSize": {
                         "$ref": "#fontSize"
+                      },
+                      "strikeThroughPosition": {
+                        "$ref": "#size"
                       },
                       "topTextLineHeight": {
                         "$ref": "#lineHeight"
@@ -4274,6 +4284,9 @@
                 "width": {
                   "$ref": "#size"
                 },
+                "height": {
+                  "$ref": "#size"
+                },
                 "minWidth": {
                   "$ref": "#size"
                 },
@@ -4285,6 +4298,18 @@
                 },
                 "icon": {
                   "$ref": "#icon"
+                },
+                "borderLeftWidth": {
+                  "$ref": "#border"
+                },
+                "borderRightWidth": {
+                  "$ref": "#border"
+                },
+                "borderTopWidth": {
+                  "$ref": "#border"
+                },
+                "borderBottomWidth": {
+                  "$ref": "#border"
                 },
                 "outerBorderColor": {
                   "$ref": "#color"
@@ -4324,10 +4349,15 @@
                 "paddingTop",
                 "paddingBottom",
                 "width",
+                "height",
                 "minWidth",
                 "iconSize",
                 "iconSpace",
                 "icon",
+                "borderLeftWidth",
+                "borderRightWidth",
+                "borderTopWidth",
+                "borderBottomWidth",
                 "outerBorderColor",
                 "outerBorderWidth",
                 "outerBorderGap",
@@ -4404,6 +4434,9 @@
                       "width": {
                         "$ref": "#size"
                       },
+                      "height": {
+                        "$ref": "#size"
+                      },
                       "minWidth": {
                         "$ref": "#size"
                       },
@@ -4415,6 +4448,18 @@
                       },
                       "icon": {
                         "$ref": "#icon"
+                      },
+                      "borderLeftWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderRightWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderTopWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderBottomWidth": {
+                        "$ref": "#border"
                       },
                       "outerBorderColor": {
                         "$ref": "#color"
@@ -6228,28 +6273,79 @@
               "type": "object",
               "additionalProperties": false,
               "properties": {
-                "hiddenInputFieldContainerHeight": {
-                  "$ref": "#size"
-                },
-                "hiddenInputFieldContainerWidth": {
-                  "$ref": "#size"
-                },
-                "previousIcon": {
-                  "$ref": "#icon"
-                },
-                "nextIcon": {
-                  "$ref": "#icon"
-                },
-                "singleDatePickerBorderColor": {
+                "calendarBackgroundColor": {
                   "$ref": "#color"
                 },
-                "singleDatePickerRadius": {
-                  "$ref": "#radius"
+                "calendarDayBlockedCalendarHoverBackground": {
+                  "$ref": "#color"
                 },
-                "singleDatePickerPaddingTopBottom": {
-                  "$ref": "#size"
+                "calendarDayBlockedCalendarHoverColor": {
+                  "$ref": "#color"
                 },
-                "singleDatePickerLeftRight": {
+                "calendarDayDefaultBackgroundColor": {
+                  "$ref": "#color"
+                },
+                "calendarDayDefaultBorder": {
+                  "$ref": "#border"
+                },
+                "calendarDayDefaultBorderColor": {
+                  "$ref": "#color"
+                },
+                "calendarDayDefaultCalendarDaySelectedHoverBackground": {
+                  "$ref": "#color"
+                },
+                "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
+                  "$ref": "#color"
+                },
+                "calendarDayDefaultCalendarDaySelectedHoverColor": {
+                  "$ref": "#color"
+                },
+                "calendarDayDefaultColor": {
+                  "$ref": "#color"
+                },
+                "calendarDayDefaultFontName": {
+                  "$ref": "#fontName"
+                },
+                "calendarDayDefaultFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "calendarDayDefaultFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "calendarDaySelectedFocusBeforeBackground": {
+                  "$ref": "#color"
+                },
+                "calendarDaySelectedHoverBackground": {
+                  "$ref": "#color"
+                },
+                "calendarDaySelectedHoverBeforeBackground": {
+                  "$ref": "#color"
+                },
+                "calendarDaySelectedHoverBeforeBorderColor": {
+                  "$ref": "#color"
+                },
+                "calendarDaySelectedHoverBorderColor": {
+                  "$ref": "#color"
+                },
+                "calendarDaySelectedHoverColor": {
+                  "$ref": "#color"
+                },
+                "calendarMonthCaptionColor": {
+                  "$ref": "#color"
+                },
+                "calendarMonthCaptionFontName": {
+                  "$ref": "#fontName"
+                },
+                "calendarMonthCaptionFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "calendarMonthCaptionFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "calendarMonthCaptionLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "calendarMonthCaptionPaddingBottom": {
                   "$ref": "#size"
                 },
                 "dateInputBorderColor": {
@@ -6258,16 +6354,10 @@
                 "dateInputBorderRadius": {
                   "$ref": "#radius"
                 },
-                "invalidInputMixin": {
-                  "$ref": "#color"
-                },
-                "validInputMixin": {
+                "dateInputFocusBorderColor": {
                   "$ref": "#color"
                 },
                 "dateInputHoverBorderColor": {
-                  "$ref": "#color"
-                },
-                "dateInputFocusBorderColor": {
                   "$ref": "#color"
                 },
                 "dateInputInsideBorderColor": {
@@ -6279,50 +6369,14 @@
                 "dateInputStrokeColor": {
                   "$ref": "#color"
                 },
-                "calendarMonthCaptionColor": {
-                  "$ref": "#color"
-                },
-                "calendarMonthCaptionFontSize": {
-                  "$ref": "#fontSize"
-                },
-                "calendarMonthCaptionLineHeight": {
-                  "$ref": "#lineHeight"
-                },
-                "calendarMonthCaptionPaddingBottom": {
-                  "$ref": "#size"
-                },
-                "dayPickerNavigationButtonBorderColor": {
-                  "$ref": "#color"
-                },
-                "dayPickerNavigationButtonBackgroundColor": {
-                  "$ref": "#color"
-                },
-                "dayPickerNavigationButtonMaxHeight": {
-                  "$ref": "#size"
-                },
-                "dayPickerNavigationButtonMaxWidth": {
-                  "$ref": "#size"
-                },
-                "dayPickerNavigationButtonPadding": {
-                  "$ref": "#size"
-                },
-                "dayPickerNavigationButtonChildLeft": {
-                  "$ref": "#size"
-                },
-                "dayPickerNavigationButtonChildRight": {
-                  "$ref": "#size"
-                },
-                "dayPickerNavigationButtonChildSvgFill": {
-                  "$ref": "#color"
-                },
-                "dayPickerNavigationButtonDefaultHoverBorderColor": {
-                  "$ref": "#color"
-                },
-                "dayPickerNavigationSVGHorizontalFill": {
-                  "$ref": "#color"
-                },
                 "dayPickerWeekHeaderColor": {
                   "$ref": "#color"
+                },
+                "dayPickerWeekHeaderFontName": {
+                  "$ref": "#fontName"
+                },
+                "dayPickerWeekHeaderFontWeight": {
+                  "$ref": "#fontWeight"
                 },
                 "dayPickerWeekHeaderLineHeight": {
                   "$ref": "#lineHeight"
@@ -6330,118 +6384,89 @@
                 "dayPickerWeekHeaderSmall": {
                   "$ref": "#fontSize"
                 },
-                "calendarDayDefaultBorder": {
-                  "$ref": "#border"
-                },
-                "calendarDayDefaultBorderColor": {
-                  "$ref": "#color"
-                },
-                "calendarDayDefaultFontSize": {
-                  "$ref": "#fontSize"
-                },
-                "calendarDayDefaultColor": {
-                  "$ref": "#color"
-                },
-                "calendarDayDefaultBeforeHeight": {
+                "hiddenInputFieldContainerHeight": {
                   "$ref": "#size"
                 },
-                "calendarDayDefaultBeforeWidth": {
+                "hiddenInputFieldContainerWidth": {
                   "$ref": "#size"
                 },
-                "calendarDaySelectedHoverBorderColor": {
+                "dayPickerNavigationButtonPadding": {
+                  "$ref": "#size"
+                },
+                "invalidInputMixin": {
                   "$ref": "#color"
                 },
-                "calendarDaySelectedHoverColor": {
+                "nextIcon": {
+                  "$ref": "#icon"
+                },
+                "previousIcon": {
+                  "$ref": "#icon"
+                },
+                "singleDatePickerBorderColor": {
                   "$ref": "#color"
                 },
-                "calendarDaySelectedHoverBeforeBackground": {
+                "singleDatePickerLeftRight": {
+                  "$ref": "#size"
+                },
+                "singleDatePickerPaddingTopBottom": {
+                  "$ref": "#size"
+                },
+                "singleDatePickerRadius": {
+                  "$ref": "#radius"
+                },
+                "validInputMixin": {
                   "$ref": "#color"
-                },
-                "calendarDayDefaultCalendarDaySelectedHoverColor": {
-                  "$ref": "#color"
-                },
-                "calendarDayDefaultCalendarDaySelectedHoverBackground": {
-                  "$ref": "#color"
-                },
-                "calendarDayBlockedCalendarHoverBackground": {
-                  "$ref": "#color"
-                },
-                "calendarDayBlockedCalendarHoverColor": {
-                  "$ref": "#color"
-                },
-                "calendarMonthCaptionFontName": {
-                  "$ref": "#fontName"
-                },
-                "dayPickerWeekHeaderFontName": {
-                  "$ref": "#fontName"
-                },
-                "calendarDayDefaultFontName": {
-                  "$ref": "#fontName"
-                },
-                "calendarMonthCaptionFontWeight": {
-                  "$ref": "#fontWeight"
-                },
-                "dayPickerWeekHeaderFontWeight": {
-                  "$ref": "#fontWeight"
-                },
-                "calendarDayDefaultFontWeight": {
-                  "$ref": "#fontWeight"
                 }
               },
               "required": [
-                "hiddenInputFieldContainerHeight",
-                "hiddenInputFieldContainerWidth",
-                "previousIcon",
-                "nextIcon",
-                "singleDatePickerBorderColor",
-                "singleDatePickerRadius",
-                "singleDatePickerPaddingTopBottom",
-                "singleDatePickerLeftRight",
+                "calendarBackgroundColor",
+                "calendarDayBlockedCalendarHoverBackground",
+                "calendarDayBlockedCalendarHoverColor",
+                "calendarDayDefaultBackgroundColor",
+                "calendarDayDefaultBorder",
+                "calendarDayDefaultBorderColor",
+                "calendarDayDefaultCalendarDaySelectedHoverBackground",
+                "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground",
+                "calendarDayDefaultCalendarDaySelectedHoverColor",
+                "calendarDayDefaultColor",
+                "calendarDayDefaultFontName",
+                "calendarDayDefaultFontSize",
+                "calendarDayDefaultFontWeight",
+                "calendarDaySelectedFocusBeforeBackground",
+                "calendarDaySelectedHoverBackground",
+                "calendarDaySelectedHoverBeforeBackground",
+                "calendarDaySelectedHoverBeforeBorderColor",
+                "calendarDaySelectedHoverBorderColor",
+                "calendarDaySelectedHoverColor",
+                "calendarMonthCaptionColor",
+                "calendarMonthCaptionFontName",
+                "calendarMonthCaptionFontSize",
+                "calendarMonthCaptionFontWeight",
+                "calendarMonthCaptionLineHeight",
+                "calendarMonthCaptionPaddingBottom",
                 "dateInputBorderColor",
                 "dateInputBorderRadius",
-                "invalidInputMixin",
-                "validInputMixin",
-                "dateInputHoverBorderColor",
                 "dateInputFocusBorderColor",
+                "dateInputHoverBorderColor",
                 "dateInputInsideBorderColor",
                 "dateInputInsideColor",
                 "dateInputStrokeColor",
-                "calendarMonthCaptionColor",
-                "calendarMonthCaptionFontSize",
-                "calendarMonthCaptionLineHeight",
-                "calendarMonthCaptionPaddingBottom",
-                "dayPickerNavigationButtonBorderColor",
-                "dayPickerNavigationButtonBackgroundColor",
-                "dayPickerNavigationButtonMaxHeight",
-                "dayPickerNavigationButtonMaxWidth",
-                "dayPickerNavigationButtonPadding",
-                "dayPickerNavigationButtonChildLeft",
-                "dayPickerNavigationButtonChildRight",
-                "dayPickerNavigationButtonChildSvgFill",
-                "dayPickerNavigationButtonDefaultHoverBorderColor",
-                "dayPickerNavigationSVGHorizontalFill",
                 "dayPickerWeekHeaderColor",
+                "dayPickerWeekHeaderFontName",
+                "dayPickerWeekHeaderFontWeight",
                 "dayPickerWeekHeaderLineHeight",
                 "dayPickerWeekHeaderSmall",
-                "calendarDayDefaultBorder",
-                "calendarDayDefaultBorderColor",
-                "calendarDayDefaultFontSize",
-                "calendarDayDefaultColor",
-                "calendarDayDefaultBeforeHeight",
-                "calendarDayDefaultBeforeWidth",
-                "calendarDaySelectedHoverBorderColor",
-                "calendarDaySelectedHoverColor",
-                "calendarDaySelectedHoverBeforeBackground",
-                "calendarDayDefaultCalendarDaySelectedHoverColor",
-                "calendarDayDefaultCalendarDaySelectedHoverBackground",
-                "calendarDayBlockedCalendarHoverBackground",
-                "calendarDayBlockedCalendarHoverColor",
-                "calendarMonthCaptionFontName",
-                "dayPickerWeekHeaderFontName",
-                "calendarDayDefaultFontName",
-                "calendarMonthCaptionFontWeight",
-                "dayPickerWeekHeaderFontWeight",
-                "calendarDayDefaultFontWeight"
+                "hiddenInputFieldContainerHeight",
+                "hiddenInputFieldContainerWidth",
+                "dayPickerNavigationButtonPadding",
+                "invalidInputMixin",
+                "nextIcon",
+                "previousIcon",
+                "singleDatePickerBorderColor",
+                "singleDatePickerLeftRight",
+                "singleDatePickerPaddingTopBottom",
+                "singleDatePickerRadius",
+                "validInputMixin"
               ]
             },
             "rules": {
@@ -6458,28 +6483,79 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
-                      "hiddenInputFieldContainerHeight": {
-                        "$ref": "#size"
-                      },
-                      "hiddenInputFieldContainerWidth": {
-                        "$ref": "#size"
-                      },
-                      "previousIcon": {
-                        "$ref": "#icon"
-                      },
-                      "nextIcon": {
-                        "$ref": "#icon"
-                      },
-                      "singleDatePickerBorderColor": {
+                      "calendarBackgroundColor": {
                         "$ref": "#color"
                       },
-                      "singleDatePickerRadius": {
-                        "$ref": "#radius"
+                      "calendarDayBlockedCalendarHoverBackground": {
+                        "$ref": "#color"
                       },
-                      "singleDatePickerPaddingTopBottom": {
-                        "$ref": "#size"
+                      "calendarDayBlockedCalendarHoverColor": {
+                        "$ref": "#color"
                       },
-                      "singleDatePickerLeftRight": {
+                      "calendarDayDefaultBackgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarDayDefaultBorder": {
+                        "$ref": "#border"
+                      },
+                      "calendarDayDefaultBorderColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarDayDefaultCalendarDaySelectedHoverBackground": {
+                        "$ref": "#color"
+                      },
+                      "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
+                        "$ref": "#color"
+                      },
+                      "calendarDayDefaultCalendarDaySelectedHoverColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarDayDefaultColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarDayDefaultFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "calendarDayDefaultFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "calendarDayDefaultFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "calendarDaySelectedFocusBeforeBackground": {
+                        "$ref": "#color"
+                      },
+                      "calendarDaySelectedHoverBackground": {
+                        "$ref": "#color"
+                      },
+                      "calendarDaySelectedHoverBeforeBackground": {
+                        "$ref": "#color"
+                      },
+                      "calendarDaySelectedHoverBeforeBorderColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarDaySelectedHoverBorderColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarDaySelectedHoverColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarMonthCaptionColor": {
+                        "$ref": "#color"
+                      },
+                      "calendarMonthCaptionFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "calendarMonthCaptionFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "calendarMonthCaptionFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "calendarMonthCaptionLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "calendarMonthCaptionPaddingBottom": {
                         "$ref": "#size"
                       },
                       "dateInputBorderColor": {
@@ -6488,16 +6564,10 @@
                       "dateInputBorderRadius": {
                         "$ref": "#radius"
                       },
-                      "invalidInputMixin": {
-                        "$ref": "#color"
-                      },
-                      "validInputMixin": {
+                      "dateInputFocusBorderColor": {
                         "$ref": "#color"
                       },
                       "dateInputHoverBorderColor": {
-                        "$ref": "#color"
-                      },
-                      "dateInputFocusBorderColor": {
                         "$ref": "#color"
                       },
                       "dateInputInsideBorderColor": {
@@ -6509,50 +6579,14 @@
                       "dateInputStrokeColor": {
                         "$ref": "#color"
                       },
-                      "calendarMonthCaptionColor": {
-                        "$ref": "#color"
-                      },
-                      "calendarMonthCaptionFontSize": {
-                        "$ref": "#fontSize"
-                      },
-                      "calendarMonthCaptionLineHeight": {
-                        "$ref": "#lineHeight"
-                      },
-                      "calendarMonthCaptionPaddingBottom": {
-                        "$ref": "#size"
-                      },
-                      "dayPickerNavigationButtonBorderColor": {
-                        "$ref": "#color"
-                      },
-                      "dayPickerNavigationButtonBackgroundColor": {
-                        "$ref": "#color"
-                      },
-                      "dayPickerNavigationButtonMaxHeight": {
-                        "$ref": "#size"
-                      },
-                      "dayPickerNavigationButtonMaxWidth": {
-                        "$ref": "#size"
-                      },
-                      "dayPickerNavigationButtonPadding": {
-                        "$ref": "#size"
-                      },
-                      "dayPickerNavigationButtonChildLeft": {
-                        "$ref": "#size"
-                      },
-                      "dayPickerNavigationButtonChildRight": {
-                        "$ref": "#size"
-                      },
-                      "dayPickerNavigationButtonChildSvgFill": {
-                        "$ref": "#color"
-                      },
-                      "dayPickerNavigationButtonDefaultHoverBorderColor": {
-                        "$ref": "#color"
-                      },
-                      "dayPickerNavigationSVGHorizontalFill": {
-                        "$ref": "#color"
-                      },
                       "dayPickerWeekHeaderColor": {
                         "$ref": "#color"
+                      },
+                      "dayPickerWeekHeaderFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "dayPickerWeekHeaderFontWeight": {
+                        "$ref": "#fontWeight"
                       },
                       "dayPickerWeekHeaderLineHeight": {
                         "$ref": "#lineHeight"
@@ -6560,62 +6594,38 @@
                       "dayPickerWeekHeaderSmall": {
                         "$ref": "#fontSize"
                       },
-                      "calendarDayDefaultBorder": {
-                        "$ref": "#border"
-                      },
-                      "calendarDayDefaultBorderColor": {
-                        "$ref": "#color"
-                      },
-                      "calendarDayDefaultFontSize": {
-                        "$ref": "#fontSize"
-                      },
-                      "calendarDayDefaultColor": {
-                        "$ref": "#color"
-                      },
-                      "calendarDayDefaultBeforeHeight": {
+                      "hiddenInputFieldContainerHeight": {
                         "$ref": "#size"
                       },
-                      "calendarDayDefaultBeforeWidth": {
+                      "hiddenInputFieldContainerWidth": {
                         "$ref": "#size"
                       },
-                      "calendarDaySelectedHoverBorderColor": {
+                      "dayPickerNavigationButtonPadding": {
+                        "$ref": "#size"
+                      },
+                      "invalidInputMixin": {
                         "$ref": "#color"
                       },
-                      "calendarDaySelectedHoverColor": {
+                      "nextIcon": {
+                        "$ref": "#icon"
+                      },
+                      "previousIcon": {
+                        "$ref": "#icon"
+                      },
+                      "singleDatePickerBorderColor": {
                         "$ref": "#color"
                       },
-                      "calendarDaySelectedHoverBeforeBackground": {
+                      "singleDatePickerLeftRight": {
+                        "$ref": "#size"
+                      },
+                      "singleDatePickerPaddingTopBottom": {
+                        "$ref": "#size"
+                      },
+                      "singleDatePickerRadius": {
+                        "$ref": "#radius"
+                      },
+                      "validInputMixin": {
                         "$ref": "#color"
-                      },
-                      "calendarDayDefaultCalendarDaySelectedHoverColor": {
-                        "$ref": "#color"
-                      },
-                      "calendarDayDefaultCalendarDaySelectedHoverBackground": {
-                        "$ref": "#color"
-                      },
-                      "calendarDayBlockedCalendarHoverBackground": {
-                        "$ref": "#color"
-                      },
-                      "calendarDayBlockedCalendarHoverColor": {
-                        "$ref": "#color"
-                      },
-                      "calendarMonthCaptionFontName": {
-                        "$ref": "#fontName"
-                      },
-                      "dayPickerWeekHeaderFontName": {
-                        "$ref": "#fontName"
-                      },
-                      "calendarDayDefaultFontName": {
-                        "$ref": "#fontName"
-                      },
-                      "calendarMonthCaptionFontWeight": {
-                        "$ref": "#fontWeight"
-                      },
-                      "dayPickerWeekHeaderFontWeight": {
-                        "$ref": "#fontWeight"
-                      },
-                      "calendarDayDefaultFontWeight": {
-                        "$ref": "#fontWeight"
                       }
                     }
                   },
@@ -7028,6 +7038,24 @@
                 },
                 "contentPaddingBottom": {
                   "$ref": "#size"
+                },
+                "marginBottom": {
+                  "$ref": "#size"
+                },
+                "borderColor": {
+                  "$ref": "#color"
+                },
+                "borderRadius": {
+                  "$ref": "#radius"
+                },
+                "borderWidth": {
+                  "$ref": "#border"
+                },
+                "expandDividerColor": {
+                  "$ref": "#color"
+                },
+                "expanddDividerWidth": {
+                  "$ref": "#size"
                 }
               },
               "required": [
@@ -7036,7 +7064,13 @@
                 "contentPaddingLeft",
                 "contentPaddingRight",
                 "contentPaddingTop",
-                "contentPaddingBottom"
+                "contentPaddingBottom",
+                "marginBottom",
+                "borderColor",
+                "borderRadius",
+                "borderWidth",
+                "expandDividerColor",
+                "expanddDividerWidth"
               ]
             },
             "rules": {
@@ -7069,6 +7103,24 @@
                         "$ref": "#size"
                       },
                       "contentPaddingBottom": {
+                        "$ref": "#size"
+                      },
+                      "marginBottom": {
+                        "$ref": "#size"
+                      },
+                      "borderColor": {
+                        "$ref": "#color"
+                      },
+                      "borderRadius": {
+                        "$ref": "#radius"
+                      },
+                      "borderWidth": {
+                        "$ref": "#border"
+                      },
+                      "expandDividerColor": {
+                        "$ref": "#color"
+                      },
+                      "expanddDividerWidth": {
                         "$ref": "#size"
                       }
                     }
@@ -9173,11 +9225,11 @@
                 "dismissIconColor": {
                   "$ref": "#color"
                 },
-                "dismissIconSize": {
-                  "$ref": "#size"
-                },
                 "dismissButtonGap": {
                   "$ref": "#size"
+                },
+                "justifyContent": {
+                  "$ref": "#flexJustifyContent"
                 }
               },
               "required": [
@@ -9203,8 +9255,8 @@
                 "iconGap",
                 "dismissIcon",
                 "dismissIconColor",
-                "dismissIconSize",
-                "dismissButtonGap"
+                "dismissButtonGap",
+                "justifyContent"
               ]
             },
             "rules": {
@@ -9287,11 +9339,11 @@
                       "dismissIconColor": {
                         "$ref": "#color"
                       },
-                      "dismissIconSize": {
-                        "$ref": "#size"
-                      },
                       "dismissButtonGap": {
                         "$ref": "#size"
+                      },
+                      "justifyContent": {
+                        "$ref": "#flexJustifyContent"
                       }
                     }
                   },
@@ -9348,6 +9400,39 @@
                 },
                 "lineHeight": {
                   "$ref": "#lineHeight"
+                },
+                "borderLeftWidth": {
+                  "$ref": "#border"
+                },
+                "borderRightWidth": {
+                  "$ref": "#border"
+                },
+                "borderTopWidth": {
+                  "$ref": "#border"
+                },
+                "borderBottomWidth": {
+                  "$ref": "#border"
+                },
+                "borderColor": {
+                  "$ref": "#color"
+                },
+                "ellipsisPadding": {
+                  "$ref": "#size"
+                },
+                "ellipsisBorderRightWidth": {
+                  "$ref": "#border"
+                },
+                "ellipsisBorderLeftWidth": {
+                  "$ref": "#border"
+                },
+                "ellipsisBorderTopWidth": {
+                  "$ref": "#border"
+                },
+                "ellipsisBorderBottomWidth": {
+                  "$ref": "#border"
+                },
+                "ellipsisHeight": {
+                  "$ref": "#size"
                 }
               },
               "required": [
@@ -9357,7 +9442,18 @@
                 "fontName",
                 "fontWeight",
                 "fontSize",
-                "lineHeight"
+                "lineHeight",
+                "borderLeftWidth",
+                "borderRightWidth",
+                "borderTopWidth",
+                "borderBottomWidth",
+                "borderColor",
+                "ellipsisPadding",
+                "ellipsisBorderRightWidth",
+                "ellipsisBorderLeftWidth",
+                "ellipsisBorderTopWidth",
+                "ellipsisBorderBottomWidth",
+                "ellipsisHeight"
               ]
             },
             "rules": {
@@ -9394,6 +9490,39 @@
                       },
                       "lineHeight": {
                         "$ref": "#lineHeight"
+                      },
+                      "borderLeftWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderRightWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderTopWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderBottomWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderColor": {
+                        "$ref": "#color"
+                      },
+                      "ellipsisPadding": {
+                        "$ref": "#size"
+                      },
+                      "ellipsisBorderRightWidth": {
+                        "$ref": "#border"
+                      },
+                      "ellipsisBorderLeftWidth": {
+                        "$ref": "#border"
+                      },
+                      "ellipsisBorderTopWidth": {
+                        "$ref": "#border"
+                      },
+                      "ellipsisBorderBottomWidth": {
+                        "$ref": "#border"
+                      },
+                      "ellipsisHeight": {
+                        "$ref": "#size"
                       }
                     }
                   },
@@ -9433,7 +9562,16 @@
                 "borderColor": {
                   "$ref": "#color"
                 },
-                "borderWidth": {
+                "borderLeftWidth": {
+                  "$ref": "#border"
+                },
+                "borderRightWidth": {
+                  "$ref": "#border"
+                },
+                "borderTopWidth": {
+                  "$ref": "#border"
+                },
+                "borderBottomWidth": {
                   "$ref": "#border"
                 },
                 "borderRadius": {
@@ -9441,6 +9579,9 @@
                 },
                 "backgroundColor": {
                   "$ref": "#color"
+                },
+                "height": {
+                  "$ref": "#size"
                 },
                 "paddingLeft": {
                   "$ref": "#size"
@@ -9490,9 +9631,13 @@
               },
               "required": [
                 "borderColor",
-                "borderWidth",
+                "borderLeftWidth",
+                "borderRightWidth",
+                "borderTopWidth",
+                "borderBottomWidth",
                 "borderRadius",
                 "backgroundColor",
+                "height",
                 "paddingLeft",
                 "paddingRight",
                 "paddingTop",
@@ -9527,7 +9672,16 @@
                       "borderColor": {
                         "$ref": "#color"
                       },
-                      "borderWidth": {
+                      "borderLeftWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderRightWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderTopWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderBottomWidth": {
                         "$ref": "#border"
                       },
                       "borderRadius": {
@@ -9535,6 +9689,9 @@
                       },
                       "backgroundColor": {
                         "$ref": "#color"
+                      },
+                      "height": {
+                        "$ref": "#size"
                       },
                       "paddingLeft": {
                         "$ref": "#size"
@@ -9619,7 +9776,16 @@
                 "borderColor": {
                   "$ref": "#color"
                 },
-                "borderWidth": {
+                "borderLeftWidth": {
+                  "$ref": "#border"
+                },
+                "borderRightWidth": {
+                  "$ref": "#border"
+                },
+                "borderTopWidth": {
+                  "$ref": "#border"
+                },
+                "borderBottomWidth": {
                   "$ref": "#border"
                 },
                 "borderRadius": {
@@ -9642,6 +9808,9 @@
                 },
                 "outerBorderColor": {
                   "$ref": "#color"
+                },
+                "outerBorderWidth": {
+                  "$ref": "#border"
                 },
                 "color": {
                   "$ref": "#color"
@@ -9678,11 +9847,17 @@
                 },
                 "displayLabel": {
                   "$ref": "#show"
+                },
+                "height": {
+                  "$ref": "#size"
                 }
               },
               "required": [
                 "borderColor",
-                "borderWidth",
+                "borderLeftWidth",
+                "borderRightWidth",
+                "borderTopWidth",
+                "borderBottomWidth",
                 "borderRadius",
                 "backgroundColor",
                 "paddingLeft",
@@ -9690,6 +9865,7 @@
                 "paddingTop",
                 "paddingBottom",
                 "outerBorderColor",
+                "outerBorderWidth",
                 "color",
                 "fontName",
                 "fontWeight",
@@ -9701,7 +9877,8 @@
                 "iconDisplace",
                 "width",
                 "textAlign",
-                "displayLabel"
+                "displayLabel",
+                "height"
               ]
             },
             "rules": {
@@ -9721,7 +9898,16 @@
                       "borderColor": {
                         "$ref": "#color"
                       },
-                      "borderWidth": {
+                      "borderLeftWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderRightWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderTopWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderBottomWidth": {
                         "$ref": "#border"
                       },
                       "borderRadius": {
@@ -9744,6 +9930,9 @@
                       },
                       "outerBorderColor": {
                         "$ref": "#color"
+                      },
+                      "outerBorderWidth": {
+                        "$ref": "#border"
                       },
                       "color": {
                         "$ref": "#color"
@@ -9780,6 +9969,9 @@
                       },
                       "displayLabel": {
                         "$ref": "#show"
+                      },
+                      "height": {
+                        "$ref": "#size"
                       }
                     }
                   },
@@ -10902,6 +11094,12 @@
                 "descriptionMarginLeft": {
                   "$ref": "#size"
                 },
+                "descriptionFontName": {
+                  "$ref": "#fontName"
+                },
+                "descriptionFontWeight": {
+                  "$ref": "#fontWeight"
+                },
                 "inputBackgroundColor": {
                   "$ref": "#color"
                 },
@@ -10962,6 +11160,8 @@
                 "descriptionFontSize",
                 "descriptionLineHeight",
                 "descriptionMarginLeft",
+                "descriptionFontName",
+                "descriptionFontWeight",
                 "inputBackgroundColor",
                 "inputBorderColor",
                 "inputBorderWidth",
@@ -11031,6 +11231,12 @@
                       },
                       "descriptionMarginLeft": {
                         "$ref": "#size"
+                      },
+                      "descriptionFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "descriptionFontWeight": {
+                        "$ref": "#fontWeight"
                       },
                       "inputBackgroundColor": {
                         "$ref": "#color"
@@ -12188,6 +12394,9 @@
                 },
                 "validationIconColor": {
                   "$ref": "#color"
+                },
+                "feedbackBackgroundColor": {
+                  "$ref": "#color"
                 }
               },
               "required": [
@@ -12212,7 +12421,8 @@
                 "iconColor",
                 "validationIcon",
                 "validationIconSize",
-                "validationIconColor"
+                "validationIconColor",
+                "feedbackBackgroundColor"
               ]
             },
             "rules": {
@@ -12293,6 +12503,9 @@
                         "$ref": "#size"
                       },
                       "validationIconColor": {
+                        "$ref": "#color"
+                      },
+                      "feedbackBackgroundColor": {
                         "$ref": "#color"
                       }
                     }
