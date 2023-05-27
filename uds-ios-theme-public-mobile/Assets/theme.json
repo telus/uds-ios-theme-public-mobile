@@ -1508,6 +1508,28 @@
         "titleFontSize": 16
       }
     },
+    "Fieldset": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
+        "outlineColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outlineOffset": null,
+        "outlineWidth": 0,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "paddingRight": null,
+        "paddingTop": null
+      }
+    },
     "Footnote": {
       "appearances": {},
       "rules": [],
@@ -3963,7 +3985,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
         "fieldSpace": 2,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": false,
         "space": 2
       }
     },
@@ -5383,6 +5412,11 @@
           "values": [true],
           "type": "state"
         },
+        "numeric": {
+          "description": "capability to only allow numbers",
+          "type": "variant",
+          "values": [true]
+        },
         "validation": {
           "description": "Validation states for form inputs",
           "values": ["error", "success"],
@@ -6325,7 +6359,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.27.0",
+    "themeTokensVersion": "2.28.0",
     "name": "theme-public-mobile"
   }
 }
