@@ -289,7 +289,6 @@
         }
       ],
       "tokens": {
-        "alignSelf": "flex-start",
         "backgroundColor": {
           "red": 0.01176,
           "green": 0.25098,
@@ -1686,7 +1685,7 @@
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 1
+          "alpha": 0
         },
         "fontName": "CerebriSans",
         "fontWeight": 400,
@@ -4586,6 +4585,7 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "animationDuration": 2000,
         "baseWidth": 40,
         "characters": 12,
         "color": {
@@ -4595,6 +4595,12 @@
           "alpha": 1
         },
         "radius": 99999999999999,
+        "secondColor": {
+          "red": 0.85882,
+          "green": 0.84314,
+          "blue": 0.78824,
+          "alpha": 1
+        },
         "size": 3,
         "spaceBetweenLines": 4,
         "squareRadius": 4
@@ -6442,7 +6448,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.29.0",
+    "themeTokensVersion": "2.30.0",
     "name": "theme-public-mobile"
   }
 }
