@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'uds-ios-theme-public-mobile'
-  s.version          = '0.1.29'
+  s.version          = '0.1.30'
   s.summary          = 'A short description of uds-ios-theme-public-mobile.'
 
 # This description is used to generate tags and improve search results.
