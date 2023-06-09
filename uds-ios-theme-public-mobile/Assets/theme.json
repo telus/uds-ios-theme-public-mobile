@@ -1322,12 +1322,16 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
         "borderWidth": 0,
         "icon": null,
         "iconColor": {
@@ -1345,6 +1349,7 @@
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
+        "textLine": "none",
         "verticalAlign": "middle"
       }
     },
@@ -1396,34 +1401,6 @@
         "paddingTop": 16,
         "size": 4,
         "verticalAlign": "middle"
-      }
-    },
-    "ExpandCollapseMiniPanel": {
-      "appearances": {},
-      "rules": [],
-      "tokens": {
-        "borderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "borderRadius": 0,
-        "borderWidth": 0,
-        "collapseDuration": 250,
-        "contentPaddingBottom": 16,
-        "contentPaddingLeft": 16,
-        "contentPaddingRight": 16,
-        "contentPaddingTop": 8,
-        "expandDividerColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "expandDividerWidth": 0,
-        "expandDuration": 300,
-        "marginBottom": 0
       }
     },
     "ExpandCollapsePanel": {
@@ -6448,7 +6425,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.30.0",
+    "themeTokensVersion": "2.31.0",
     "name": "theme-public-mobile"
   }
 }
