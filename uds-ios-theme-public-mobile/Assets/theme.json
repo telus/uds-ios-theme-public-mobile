@@ -1188,37 +1188,6 @@
         "calendarMonthCaptionFontWeight": 350,
         "calendarMonthCaptionLineHeight": 1.14285714286,
         "calendarMonthCaptionPaddingBottom": 14,
-        "dateInputBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dateInputBorderRadius": 4,
-        "dateInputFocusBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dateInputHoverBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dateInputInsideBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dateInputInsideColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
         "dateInputStrokeColor": {
           "red": 0,
           "green": 0,
@@ -6425,7 +6394,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.31.0",
+    "themeTokensVersion": "2.32.0",
     "name": "theme-public-mobile"
   }
 }
