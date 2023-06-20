@@ -48,8 +48,26 @@
       }
     },
     "BlockQuote": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm", "md"]
+          },
+          "tokens": {
+            "titleHeadingFontName": "CerebriSans",
+            "titleHeadingFontSize": 24,
+            "titleHeadingFontWeight": 400,
+            "titleHeadingLineHeight": 1.5
+          }
+        }
+      ],
       "tokens": {
         "backgroundGradient": null,
         "color": {
@@ -58,11 +76,23 @@
           "blue": 0.78824,
           "alpha": 1
         },
+        "linkFontName": "CerebriSans",
+        "linkFontSize": 16,
+        "linkFontWeight": 700,
+        "linkLineHeight": 1.5,
         "marginBottom": 16,
         "paddingBottom": 16,
         "paddingLeft": 32,
         "paddingRight": 32,
         "paddingTop": 16,
+        "titleFontName": "CerebriSans",
+        "titleFontSize": 20,
+        "titleFontWeight": 400,
+        "titleHeadingFontName": "CerebriSans",
+        "titleHeadingFontSize": 24,
+        "titleHeadingFontWeight": 400,
+        "titleHeadingLineHeight": 1.5,
+        "titleLineHeight": 1.5,
         "width": 2
       }
     },
@@ -1150,6 +1180,24 @@
         "calendarDayDefaultFontName": "CerebriSans",
         "calendarDayDefaultFontSize": 14,
         "calendarDayDefaultFontWeight": 350,
+        "calendarDaySelectedDisabledBackground": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "calendarDaySelectedDisabledColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "calendarDaySelectedDisabledContentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "calendarDaySelectedFocusBeforeBackground": {
           "red": 1,
           "green": 1,
@@ -6450,7 +6498,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.33.0",
+    "themeTokensVersion": "2.34.0",
     "name": "theme-public-mobile"
   }
 }
