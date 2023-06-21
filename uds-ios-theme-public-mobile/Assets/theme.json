@@ -233,7 +233,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "rank": {
@@ -392,7 +392,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -538,7 +538,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -761,7 +761,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -1116,7 +1116,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -1707,7 +1707,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -1871,7 +1871,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -2127,11 +2127,11 @@
         "listGutter": 12
       }
     },
-    "ListBox": {
+    "Listbox": {
       "appearances": {
         "current": {
           "description": "When the current item is selected",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "expanded": {
@@ -2141,12 +2141,12 @@
         },
         "isChild": {
           "description": "when the item is child of another child",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -2227,6 +2227,7 @@
         "groupFontName": "CerebriSans",
         "groupFontSize": 14,
         "groupFontWeight": 400,
+        "groupHeight": 40,
         "groupIcon": null,
         "groupPaddingBottom": 12,
         "groupPaddingLeft": 16,
@@ -2238,19 +2239,35 @@
           "blue": 0,
           "alpha": 0
         },
-        "itemBorderBackgroundColor": {
-          "red": 0.85882,
-          "green": 0.96078,
-          "blue": 0.92941,
-          "alpha": 1
+        "itemBorderBottomColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
+        "itemBorderBottomWidth": 1,
         "itemBorderLeftColor": {
-          "red": 0.01176,
-          "green": 0.25098,
-          "blue": 0.27059,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
-        "itemBorderLeftWidth": 4,
+        "itemBorderLeftWidth": 1,
+        "itemBorderRadius": 0,
+        "itemBorderRightColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "itemBorderRightWidth": 1,
+        "itemBorderTopColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "itemBorderTopWidth": 1,
         "itemBorderWidth": 0,
         "itemColor": {
           "red": 0.01176,
@@ -2262,12 +2279,16 @@
         "itemFontName": "CerebriSans",
         "itemFontSize": 14,
         "itemFontWeight": 700,
+        "itemHeight": 40,
         "itemOutline": 0,
         "itemPaddingBottom": 12,
         "itemPaddingLeft": 16,
         "itemPaddingRight": 16,
         "itemPaddingTop": 12,
         "itemTextDecoration": "none",
+        "lineHeight": 1.14285714286,
+        "minHeight": "100%",
+        "minWidth": "100%",
         "shadow": {
           "inset": false,
           "offsetX": 0,
@@ -2437,7 +2458,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -2880,7 +2901,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -2990,7 +3011,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -3436,7 +3457,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -3586,7 +3607,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -3873,7 +3894,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "viewport": {
@@ -4763,6 +4784,8 @@
         "buttonPaddingRight": 16,
         "buttonRadius": 0,
         "detailsContainerPadding": 8,
+        "labelFontName": "CerebriSans",
+        "labelFontWeight": 400,
         "playIcon": "PaletteIconChevronRight",
         "playIconColor": {
           "red": 1,
@@ -5006,7 +5029,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -5174,22 +5197,22 @@
       "appearances": {
         "focus": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "hover": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -5316,7 +5339,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -5753,6 +5776,12 @@
           "blue": 0.27059,
           "alpha": 1
         },
+        "timelineConnectorColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "timelineContainerDirection": "column"
       }
     },
@@ -5822,7 +5851,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -5990,7 +6019,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -6171,6 +6200,7 @@
       "rules": [],
       "tokens": {
         "captionsIcon": "PaletteIconArrowLeft",
+        "height": 14,
         "maximizeIcon": "PaletteIconArrowLeft",
         "menuBottom": 64,
         "menuMarginLeft": 16,
@@ -6178,9 +6208,7 @@
         "minimizeIcon": "PaletteIconArrowLeft",
         "paddingBottom": 16,
         "paddingLeft": 48,
-        "paddingLeftCompactMode": 16,
         "paddingRight": 48,
-        "paddingRightCompactMode": 16,
         "paddingTop": 16,
         "settingsIcon": "PaletteIconArrowLeft"
       }
@@ -6498,7 +6526,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.34.0",
+    "themeTokensVersion": "2.35.0",
     "name": "theme-public-mobile"
   }
 }
