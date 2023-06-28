@@ -689,6 +689,7 @@
         "contentFlexShrink": 1,
         "contentJustifyContent": "flex-start",
         "flex": 1,
+        "gradient": null,
         "minWidth": null,
         "paddingBottom": 0,
         "paddingLeft": 0,
@@ -1396,12 +1397,6 @@
       },
       "rules": [],
       "tokens": {
-        "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
         "borderColor": {
           "red": 0,
           "green": 0,
@@ -1409,6 +1404,13 @@
           "alpha": 0
         },
         "borderWidth": 0,
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "fontSize": 14,
         "icon": null,
         "iconColor": {
           "red": 0,
@@ -1421,11 +1423,13 @@
         "iconPosition": "left",
         "iconSize": 0,
         "justifyContent": "flex-start",
+        "lineHeight": 1.42857142857,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
         "size": 4,
+        "textLine": "none",
         "verticalAlign": "middle"
       }
     },
@@ -5938,12 +5942,14 @@
           "alpha": 0
         },
         "outerBorderGap": 0,
+        "outerBorderGapButton": 0,
         "outerBorderWidth": 0,
         "paddingBottom": 8,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 8,
         "shadow": null,
+        "space": 3,
         "switchBorderColor": {
           "red": 0.01176,
           "green": 0.25098,
@@ -5968,6 +5974,7 @@
         },
         "trackBorderRadius": 0,
         "trackBorderWidth": 0,
+        "trackHeight": 60,
         "width": 60
       }
     },
@@ -6526,7 +6533,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.35.0",
+    "themeTokensVersion": "2.36.0",
     "name": "theme-public-mobile"
   }
 }
