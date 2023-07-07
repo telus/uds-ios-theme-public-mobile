@@ -1450,6 +1450,33 @@
         "contentPaddingLeft": 16,
         "contentPaddingRight": 16,
         "contentPaddingTop": 8,
+        "contentPanelBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentPanelBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentPanelBorderWidth": 0,
+        "contentPanelFontColor": {
+          "red": 0.01176,
+          "green": 0.25098,
+          "blue": 0.27059,
+          "alpha": 1
+        },
+        "contentPanelFontName": "CerebriSans",
+        "contentPanelFontSize": 16,
+        "contentPanelFontWeight": 400,
+        "contentPanelLineHeight": 1.5,
+        "contentPanelPaddingBottom": 16,
+        "contentPanelPaddingLeft": 0,
+        "contentPanelPaddingRight": 0,
+        "contentPanelPaddingTop": 16,
         "expandDividerColor": {
           "red": 0,
           "green": 0,
@@ -4686,6 +4713,10 @@
           "blue": 1,
           "alpha": 1
         },
+        "fontName": "CerebriSans",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 1.14285714286,
         "outlineColor": {
           "red": 0.92157,
           "green": 0.93725,
@@ -4696,7 +4727,8 @@
         "outlineStyle": "solid",
         "outlineWidth": 2,
         "paddingHorizontal": 8,
-        "paddingVertical": 8
+        "paddingVertical": 8,
+        "textLine": "underline"
       }
     },
     "Spinner": {
@@ -5101,23 +5133,8 @@
       }
     },
     "Table": {
-      "appearances": {
-        "spacing": {
-          "type": "variant",
-          "values": ["compact"]
-        }
-      },
-      "rules": [
-        {
-          "if": {
-            "spacing": "compact"
-          },
-          "tokens": {
-            "cellPaddingBottom": 8,
-            "cellPaddingTop": 8
-          }
-        }
-      ],
+      "appearances": {},
+      "rules": [],
       "tokens": {
         "cellBackground": {
           "red": 1,
@@ -5131,29 +5148,11 @@
           "blue": 0.78824,
           "alpha": 1
         },
-        "cellHeadingBackground": {
-          "red": 0.85882,
-          "green": 0.84314,
-          "blue": 0.78824,
-          "alpha": 1
-        },
-        "cellHeadingBoxShadowColor": {
-          "red": 0.85882,
-          "green": 0.84314,
-          "blue": 0.78824,
-          "alpha": 1
-        },
         "cellMinWidth": 0,
         "cellPaddingBottom": 16,
         "cellPaddingLeft": 16,
         "cellPaddingRight": 16,
         "cellPaddingTop": 16,
-        "cellRowHeadingBackground": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
         "cellStickyShadow": {
           "inset": false,
           "offsetX": 0,
@@ -5167,15 +5166,16 @@
             "alpha": 0.1
           }
         },
-        "cellSubheadingBackground": {
-          "red": 0.85882,
-          "green": 0.84314,
-          "blue": 0.78824,
-          "alpha": 1
-        },
         "fontName": "CerebriSans",
         "fontSize": 18,
         "fontWeight": 700,
+        "lineHeight": 1.14285714286,
+        "stickyBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "tablePaddingBottom": 24
       }
     },
@@ -5455,9 +5455,23 @@
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
           "type": "state"
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
         }
       },
       "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm"]
+          },
+          "tokens": {
+            "expandContentPaddingRight": 24,
+            "listMarginLeft": 4
+          }
+        },
         {
           "if": {
             "expanded": true
@@ -5468,36 +5482,60 @@
         }
       ],
       "tokens": {
+        "contentBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentMarginBottom": 0,
         "contentPaddingBottom": 8,
         "contentPaddingLeft": 16,
+        "dividerColor": {
+          "red": 0.01176,
+          "green": 0.25098,
+          "blue": 0.27059,
+          "alpha": 1
+        },
         "expandBaseBorderWidth": 0,
         "expandContentPaddingBottom": 16,
         "expandContentPaddingLeft": 16,
         "expandContentPaddingRight": 16,
         "expandContentPaddingTop": 16,
         "expandIconContainerAlignItems": "center",
-        "expandIconContainerBorder": 1,
+        "expandIconContainerBorder": 0,
         "expandIconContainerBorderColor": {
-          "red": 0.50588,
-          "green": 0.62353,
-          "blue": 0.63529,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "expandIconContainerHeight": 32,
         "expandIconContainerJustifyContent": "center",
         "expandIconContainerMarginX": 0,
         "expandIconContainerMarginY": 12,
         "expandIconContainerWidth": 32,
+        "expandTitleBorder": 0,
+        "expandTitleBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "expandTitleColor": {
           "red": 0.50588,
           "green": 0.62353,
           "blue": 0.63529,
           "alpha": 1
         },
+        "expandTitleFontName": "CerebriSans",
         "expandTitleFontSize": 16,
+        "expandTitleFontWeight": 400,
         "expandTitleLineHeight": 1.5,
         "expandTitleMarginX": 4,
         "expandTitleMarginY": 0,
+        "expandTitlePaddingLeft": 0,
+        "expandTitleUnderline": "none",
         "icon": "PaletteIconChevronRight",
         "listColor": {
           "red": 0.98431,
@@ -6172,6 +6210,7 @@
         "fontWeight": 350,
         "letterSpacing": 0,
         "lineHeight": 1.2,
+        "superScriptFontSize": null,
         "textTransform": "none"
       }
     },
@@ -6317,7 +6356,18 @@
       }
     },
     "VideoPickerThumbnail": {
-      "appearances": {},
+      "appearances": {
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
+        "selected": {
+          "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+          "values": [true],
+          "type": "state"
+        }
+      },
       "rules": [],
       "tokens": {
         "borderColor": {
@@ -6328,6 +6378,15 @@
         },
         "borderRadius": 4,
         "borderWidth": 2,
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderGap": 0,
+        "outerBorderRadius": 4,
+        "outerBorderWidth": 0,
         "pressableBorderTopColor": {
           "red": 0,
           "green": 0,
@@ -6533,7 +6592,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.36.0",
+    "themeTokensVersion": "2.37.0",
     "name": "theme-public-mobile"
   }
 }
