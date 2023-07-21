@@ -3425,7 +3425,7 @@
           "blue": 0.33725,
           "alpha": 1
         },
-        "contentFontSize": 16,
+        "contentFontSize": 18,
         "fontName": "SofiaPro",
         "fontWeight": 400,
         "icon": null,
@@ -4223,8 +4223,8 @@
           "blue": 0,
           "alpha": 0
         },
-        "borderBottomLeftRadius": 0,
-        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": null,
+        "borderBottomRightRadius": null,
         "borderBottomWidth": 1,
         "borderColor": {
           "red": 0.38824,
@@ -4239,7 +4239,7 @@
         "borderTopRightRadius": null,
         "borderTopWidth": 1,
         "borderWidth": 2,
-        "icon": null,
+        "icon": "PaletteIconAdd",
         "iconColor": {
           "red": 0.38824,
           "green": 0.42353,
@@ -9360,7 +9360,8 @@
           "blue": 0.33725,
           "alpha": 1
         },
-        "containerGap": 12
+        "containerGap": 12,
+        "padding": 16
       }
     },
     "ToggleSwitch": {
@@ -10748,7 +10749,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.38.0",
+    "themeTokensVersion": "2.39.0",
     "name": "theme-public-mobile"
   }
 }
