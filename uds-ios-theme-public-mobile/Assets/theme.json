@@ -2408,6 +2408,7 @@
           "blue": 0,
           "alpha": 0
         },
+        "inputOutlineOffset": 0,
         "inputOutlineWidth": 0,
         "inputShadow": null,
         "inputWidth": 20,
@@ -2428,7 +2429,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
         "fieldSpace": 2,
+        "outlineOffset": null,
+        "outlineWidth": 0,
+        "showIcon": false,
         "space": 2
       }
     },
@@ -6701,6 +6709,7 @@
         },
         "itemIconSize": 24,
         "itemLineHeight": 1.5,
+        "itemUnderline": "none",
         "listGutter": 16,
         "paddingBottom": 12,
         "paddingLeft": 4,
@@ -7216,7 +7225,11 @@
           "blue": 1,
           "alpha": 1
         },
+        "fontName": "SofiaPro",
+        "fontSize": 14,
+        "fontWeight": 700,
         "gradient": null,
+        "lineHeight": 1.4285714285714286,
         "paddingBottom": 2,
         "paddingLeft": 12,
         "paddingRight": 12,
@@ -10749,7 +10762,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.39.0",
+    "themeTokensVersion": "2.40.0",
     "name": "theme-public-mobile"
   }
 }
