@@ -4824,10 +4824,10 @@
         "itemFontWeight": 400,
         "itemHeight": 40,
         "itemOutline": 0,
-        "itemPaddingBottom": 12,
+        "itemPaddingBottom": 8,
         "itemPaddingLeft": 16,
         "itemPaddingRight": 16,
-        "itemPaddingTop": 12,
+        "itemPaddingTop": 8,
         "itemTextDecoration": "none",
         "lineHeight": 1.5,
         "minHeight": 40,
@@ -5481,7 +5481,7 @@
             "size": "small"
           },
           "tokens": {
-            "itemLineHeight": 1.55555555
+            "itemLineHeight": 1.5
           }
         },
         {
@@ -5490,7 +5490,7 @@
             "size": "large"
           },
           "tokens": {
-            "itemLineHeight": 1.55555555
+            "itemLineHeight": 1.4
           }
         }
       ],
