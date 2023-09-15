@@ -4050,6 +4050,59 @@
         },
         {
           "if": {
+            "password": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.38824,
+              "green": 0.42353,
+              "blue": 0.54902,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.38824,
+              "green": 0.42353,
+              "blue": 0.54902,
+              "alpha": 1
+            },
+            "borderWidth": 1,
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "outerBorderGap": 0,
+            "outerBorderWidth": 0
+          }
+        },
+        {
+          "if": {
+            "inactive": true,
+            "password": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 0,
+            "outerBorderGap": 0,
+            "outerBorderWidth": 0
+          }
+        },
+        {
+          "if": {
             "inverse": true,
             "pressed": true
           },
@@ -4194,33 +4247,38 @@
         },
         {
           "if": {
-            "compact": true
-          },
-          "tokens": {
-            "outerBorderGap": 0
-          }
-        },
-        {
-          "if": {
             "inactive": true,
             "password": true
           },
           "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 0,
             "iconColor": {
               "red": 0.61176,
               "green": 0.62353,
               "blue": 0.66667,
               "alpha": 1
             },
+            "outerBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "outerBorderWidth": 0
           }
         },
         {
           "if": {
-            "password": true
+            "compact": true
           },
           "tokens": {
-            "outerBorderWidth": 0
+            "outerBorderGap": 0
           }
         }
       ],
@@ -4247,6 +4305,7 @@
         "borderTopRightRadius": null,
         "borderTopWidth": 1,
         "borderWidth": 2,
+        "height": null,
         "icon": "PaletteIconAdd",
         "iconColor": {
           "red": 0.38824,
@@ -4267,7 +4326,8 @@
         "outerBorderGap": 0,
         "outerBorderWidth": 0,
         "padding": 4,
-        "shadow": null
+        "shadow": null,
+        "width": null
       }
     },
     "Image": {
