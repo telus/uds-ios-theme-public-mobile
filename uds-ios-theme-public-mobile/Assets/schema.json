@@ -217,33 +217,33 @@
       "anyOf": [
         {
           "const": "{palette.border.border1}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border2}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border3}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border4}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nprogress bar step tracker",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nprogress bar step tracker"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nprogress bar step tracker",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nprogress bar step tracker"
         },
         {
           "const": "{palette.border.border8}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nside menu item",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nside menu item"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nside menu item",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nside menu item"
         },
         {
           "const": "{palette.border.none}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\npossible duplicate of system.border.zero",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\npossible duplicate of system.border.zero"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\npossible duplicate of system.border.zero",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\npossible duplicate of system.border.zero"
         },
         {
           "const": "{system.border.zero}",
@@ -262,218 +262,223 @@
       "anyOf": [
         {
           "const": "{palette.color.apricot100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.apricot25}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.apricot50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.apricot75}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.black100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.black60}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.danger10}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.danger100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.danger50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.dark10}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nDark 10%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nDark 10%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nDark 10%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nDark 10%"
         },
         {
           "const": "{palette.color.dark20}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nDark 20%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nDark 20%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nDark 20%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nDark 20%"
         },
         {
           "const": "{palette.color.dark40}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nDark 40%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nDark 40%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nDark 40%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nDark 40%"
         },
         {
           "const": "{palette.color.dark60}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nDark 60%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nDark 60%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nDark 60%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nDark 60%"
         },
         {
           "const": "{palette.color.dark80}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nDark 80%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nDark 80%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nDark 80%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nDark 80%"
         },
         {
           "const": "{palette.color.dark97}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nDark 97%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nDark 97%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nDark 97%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nDark 97%"
+        },
+        {
+          "const": "{palette.color.grey100}",
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.greyShuttle}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.light10}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nLight 40%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nLight 40%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nLight 40%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nLight 40%"
         },
         {
           "const": "{palette.color.light20}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nLight 40%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nLight 40%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nLight 40%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nLight 40%"
         },
         {
           "const": "{palette.color.light40}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nLight 40%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nLight 40%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nLight 40%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nLight 40%"
         },
         {
           "const": "{palette.color.light60}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nLight 60%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nLight 60%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nLight 60%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nLight 60%"
         },
         {
           "const": "{palette.color.light80}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nLight 40%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nLight 40%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nLight 40%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nLight 40%"
         },
         {
           "const": "{palette.color.light97}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nLight 40%",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nLight 40%"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nLight 40%",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nLight 40%"
         },
         {
           "const": "{palette.color.link100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUse in links only",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUse in links only"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUse in links only",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUse in links only"
         },
         {
           "const": "{palette.color.link25}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.link50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.link75}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.overlay}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUse in overly background for modal",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUse in overly background for modal"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUse in overly background for modal",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUse in overly background for modal"
         },
         {
           "const": "{palette.color.sand10}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.sand100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.sand25}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.sand50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.sand75}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.sidenav}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.slate100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.slate120}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUse in Footer bottom only",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUse in Footer bottom only"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUse in Footer bottom only",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUse in Footer bottom only"
         },
         {
           "const": "{palette.color.slate25}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.slate5}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.slate50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.slate75}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.success10}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.success100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.transparent}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.white}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.color.transparent}",
@@ -492,13 +497,13 @@
       "anyOf": [
         {
           "const": "{palette.duration.duration250}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.duration.duration300}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.duration.zero}",
@@ -512,58 +517,63 @@
       "anyOf": [
         {
           "const": "{palette.fontSize.size12}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size14}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size16}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size18}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size20}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size24}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size30}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.fontSize.size32}",
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size36}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size48}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size64}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size72}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.fontSize.none}",
@@ -577,8 +587,8 @@
       "anyOf": [
         {
           "const": "{palette.gradient.apricot}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\napricot Gradient",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\napricot Gradient"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\napricot Gradient",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\napricot Gradient"
         },
         {
           "const": "{system.gradient.none}",
@@ -592,528 +602,528 @@
       "anyOf": [
         {
           "const": "{palette.icon.Activity}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Add}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.AddCircle}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Amex}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ArrowLeft}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ArrowRight}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Burger}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Calendar}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Camera}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Chart}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Chat}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Check}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckMark}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronDown}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronLeft}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronRight}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronUp}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Close}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ClosedCaptions}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Credit}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Deduct}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Download}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Edit}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Email}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Emoji}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Error}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Esim}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Expand}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeMasked}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeUnmasked}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Filter}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.FullscreenExpand}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.FullscreenMinimize}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Help}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Home}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Info}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Lock}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MasterCard}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileArrowBack}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileArrowRight}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileCamera}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileCaretDown}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileChat}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileCheckbox}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileCheckmark}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileDownArrow}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileFeatherSearch}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileGroup}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileIconFilter}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileInputWarningError}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileLightening}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileListIcon}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileMaterialError}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileOverviewCheckbox}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobilePMLogo}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileRadioSelected}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileRadioUnSelected}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileRefresh}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileRewards}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileSaleTag}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileShareNumber}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileUncheckedCheckbox}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileUpArrow}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileWarningError}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileWaves}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileXClose}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MobileXMark}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Muted}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Notification}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Options}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Pause}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Payment}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Person}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Phone}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PhoneIncoming}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PhoneLandline}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PhoneOutgoing}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PinLocation}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PlaySolid}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PlayVideo}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Printer}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.QuoteLeft}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.QuoteLeftArrow}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.QuoteRightArrow}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Receipt}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Refresh}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Replay}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Rewards}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Search}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Send}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Settings}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.SettingsSolid}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Sim}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Speed}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Subscription}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Subtract}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Target}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Unlock}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Unmuted}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Visa}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Visible}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.WarningError}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Wifi}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.XMark}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.XMarkCircle}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.icon.none}",
@@ -1127,23 +1137,23 @@
       "anyOf": [
         {
           "const": "{palette.letterSpacing.condensed}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.letterSpacing.extraCondensed}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.letterSpacing.loose}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.letterSpacing.medium}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.letterSpacing.none}",
@@ -1157,113 +1167,113 @@
       "anyOf": [
         {
           "const": "{palette.lineHeight.multiply14}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply140}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply19}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio10to7}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio11to7}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio11to9}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio13to7}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio14to9}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio15to8}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio1to1}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio2to1}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio3to2}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio4to3}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio5to2}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio5to4}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio5to6}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio6to5}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio7to5}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio8to5}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio8to7}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio9to7}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio9to8}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#lineHeight"
@@ -1272,33 +1282,38 @@
       "anyOf": [
         {
           "const": "{palette.opacity.opacity0}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity100}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity25}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.opacity.opacity40}",
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity75}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity80}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.opacity.opaque}",
@@ -1312,58 +1327,63 @@
       "anyOf": [
         {
           "const": "{palette.radius.full}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nto achieve the effect of 100% rounded corners",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nto achieve the effect of 100% rounded corners"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nto achieve the effect of 100% rounded corners",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nto achieve the effect of 100% rounded corners"
         },
         {
           "const": "{palette.radius.none}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.pill32}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)"
         },
         {
           "const": "{palette.radius.radius1}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius12}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius24}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.radius.radius3}",
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius32}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius4}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius48}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius6}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius8}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.radius.none}",
@@ -1387,43 +1407,43 @@
       "anyOf": [
         {
           "const": "{palette.shadow.active}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nside menu item active",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nside menu item active"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nside menu item active",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nside menu item active"
         },
         {
           "const": "{palette.shadow.elevation1}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nRaise the element one level from the surface, such as sticky elements",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nRaise the element one level from the surface, such as sticky elements"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nRaise the element one level from the surface, such as sticky elements",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nRaise the element one level from the surface, such as sticky elements"
         },
         {
           "const": "{palette.shadow.elevation2}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nRaise the element 2 levels from the surface, such as overlays",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nRaise the element 2 levels from the surface, such as overlays"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nRaise the element 2 levels from the surface, such as overlays",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nRaise the element 2 levels from the surface, such as overlays"
         },
         {
           "const": "{palette.shadow.elevation3}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nRaise the element to the highest level from the surface, such as mega-nav",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nRaise the element to the highest level from the surface, such as mega-nav"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nRaise the element to the highest level from the surface, such as mega-nav",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nRaise the element to the highest level from the surface, such as mega-nav"
         },
         {
           "const": "{palette.shadow.none}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.shadow.surfaceEmboss}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar"
         },
         {
           "const": "{palette.shadow.surfaceInset}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch"
         },
         {
           "const": "{palette.shadow.surfaceRaised}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch"
         },
         {
           "const": "{system.shadow.none}",
@@ -1437,233 +1457,238 @@
       "anyOf": [
         {
           "const": "{palette.size.size0}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size1}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nFor special gap sizes. This is not part of the public-mobile spacing scale.",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nFor special gap sizes. This is not part of the public-mobile spacing scale."
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nFor special gap sizes. This is not part of the public-mobile spacing scale.",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nFor special gap sizes. This is not part of the public-mobile spacing scale."
         },
         {
           "const": "{palette.size.size10}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size11}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size112}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size12}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size128}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size14}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size140}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size16}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size168}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size18}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size188}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size2}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size20}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size22}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nFor special top property for strike through used in PriceLockup",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nFor special top property for strike through used in PriceLockup"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nFor special top property for strike through used in PriceLockup",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nFor special top property for strike through used in PriceLockup"
         },
         {
           "const": "{palette.size.size24}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size26}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size288}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size3}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.size.size314}",
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size32}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size320}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size33}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nFor special top property for strike through used in PriceLockup",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nFor special top property for strike through used in PriceLockup"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nFor special top property for strike through used in PriceLockup",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nFor special top property for strike through used in PriceLockup"
         },
         {
           "const": "{palette.size.size36}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size4}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size40}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size412}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUsed for min height in Multiselect filter ",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUsed for min height in Multiselect filter "
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUsed for min height in Multiselect filter ",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUsed for min height in Multiselect filter "
         },
         {
           "const": "{palette.size.size44}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size46}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size48}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size480}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size5}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size50}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size544}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nMultiselect filter max width at sm - xl breakpoints",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nMultiselect filter max width at sm - xl breakpoints"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nMultiselect filter max width at sm - xl breakpoints",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nMultiselect filter max width at sm - xl breakpoints"
         },
         {
           "const": "{palette.size.size56}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size576}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size6}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size630}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size64}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size640}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\nUsed for max height in VideoPicker",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\nUsed for max height in VideoPicker"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\nUsed for max height in VideoPicker",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\nUsed for max height in VideoPicker"
         },
         {
           "const": "{palette.size.size66}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size72}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size768}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size8}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size80}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size9}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.size.none}",
@@ -1717,13 +1742,13 @@
       "anyOf": [
         {
           "const": "{palette.fontName.BystanderSans}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontName.SofiaPro}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontName"
@@ -1732,13 +1757,13 @@
       "anyOf": [
         {
           "const": "{palette.fontWeight.weight400}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight700}",
-          "description": "@telus-uds/palette-public-mobile/v1.1.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.1.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-public-mobile/v1.2.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-public-mobile/v1.2.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontWeight"
