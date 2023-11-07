@@ -2758,6 +2758,52 @@
         "textTransform": "none"
       }
     },
+    "CheckboxCardGroup": {
+      "appearances": {
+        "fullWidth": {
+          "description": "Makes cards always occupy the full width of the parent, regardless of viewport",
+          "type": "variant",
+          "values": [true]
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["md", "lg", "xl"]
+          },
+          "tokens": {
+            "direction": "row",
+            "space": 6
+          }
+        },
+        {
+          "if": {
+            "fullWidth": true
+          },
+          "tokens": {
+            "direction": "column",
+            "fieldSpace": 4,
+            "space": 4
+          }
+        }
+      ],
+      "tokens": {
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
+        "direction": "column",
+        "fieldSpace": 4,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "space": 4
+      }
+    },
     "CheckboxGroup": {
       "appearances": {},
       "rules": [],
@@ -5316,6 +5362,7 @@
             "viewport": ["xs", "sm"]
           },
           "tokens": {
+            "direction": "column",
             "height": "100%",
             "paddingBottom": 24,
             "paddingLeft": 24,
@@ -5330,6 +5377,7 @@
           "tokens": {
             "containerPaddingBottom": 32,
             "containerPaddingTop": 32,
+            "direction": "row",
             "maxWidth": 576
           }
         },
@@ -5451,6 +5499,7 @@
         "containerPaddingLeft": 0,
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
+        "direction": "row",
         "gap": 16,
         "headingColor": {
           "red": 0.22353,
@@ -11323,7 +11372,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.43.0",
+    "themeTokensVersion": "2.44.0",
     "name": "theme-public-mobile"
   }
 }
