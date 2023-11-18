@@ -5758,8 +5758,8 @@
     "Notification": {
       "appearances": {
         "style": {
-          "values": ["success", "warning", "error"],
-          "type": "state"
+          "type": "variant",
+          "values": ["success", "warning", "error"]
         },
         "system": {
           "values": [true],
@@ -11379,7 +11379,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.45.0",
+    "themeTokensVersion": "2.46.0",
     "name": "theme-public-mobile"
   }
 }
