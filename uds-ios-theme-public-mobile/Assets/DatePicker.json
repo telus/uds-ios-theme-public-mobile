@@ -1,0 +1,190 @@
+{
+  "appearances": {
+    "inline": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inline": true
+      },
+      "tokens": {
+        "calendarBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "calendarBackgroundColor": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "calendarDayBlockedCalendarHoverBackground": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "calendarDayBlockedCalendarHoverColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "calendarDayDefaultBackgroundColor": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "calendarDayDefaultBorder": 1,
+    "calendarDayDefaultBorderColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverBackground": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "calendarDayDefaultColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "calendarDayDefaultFontName": "SofiaPro",
+    "calendarDayDefaultFontSize": 18,
+    "calendarDayDefaultFontWeight": 700,
+    "calendarDaySelectedDisabledBackground": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "calendarDaySelectedDisabledColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "calendarDaySelectedDisabledContentBackgroundColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "calendarDaySelectedFocusBeforeBackground": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBackground": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBeforeBackground": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBeforeBorderColor": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBorderColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "calendarMonthCaptionColor": {
+      "red": 0.16863,
+      "green": 0.19216,
+      "blue": 0.27059,
+      "alpha": 1
+    },
+    "calendarMonthCaptionFontName": "SofiaPro",
+    "calendarMonthCaptionFontSize": 20,
+    "calendarMonthCaptionFontWeight": 700,
+    "calendarMonthCaptionLineHeight": 1.2,
+    "calendarMonthCaptionPaddingBottom": 46,
+    "dateInputStrokeColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "dayPickerNavigationButtonPadding": 12,
+    "dayPickerWeekHeaderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "dayPickerWeekHeaderFontName": "SofiaPro",
+    "dayPickerWeekHeaderFontWeight": 700,
+    "dayPickerWeekHeaderLineHeight": 1.5,
+    "dayPickerWeekHeaderSmall": 16,
+    "hiddenInputFieldContainerHeight": 0,
+    "hiddenInputFieldContainerWidth": 0,
+    "invalidInputMixin": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "nextIcon": "PaletteIconMobileArrowRight",
+    "previousIcon": "PaletteIconMobileArrowBack",
+    "singleDatePickerBorderColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "singleDatePickerLeftRight": 16,
+    "singleDatePickerPaddingTopBottom": 8,
+    "singleDatePickerRadius": 8,
+    "validInputMixin": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    }
+  }
+}

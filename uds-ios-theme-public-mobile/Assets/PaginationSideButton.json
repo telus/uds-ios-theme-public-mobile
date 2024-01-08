@@ -1,0 +1,177 @@
+{
+  "appearances": {
+    "compact": {
+      "values": [true],
+      "description": "Determines if the \"Next\" and \"Previous\" labels should be omitted",
+      "type": "state"
+    },
+    "direction": {
+      "values": ["previous", "next"],
+      "description": "Determines which way does the button navigate in Pagination's context",
+      "type": "state"
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "compact": true,
+        "direction": "previous"
+      },
+      "tokens": {
+        "displayLabel": false,
+        "icon": "PaletteIconChevronLeft",
+        "width": 48
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "direction": "next"
+      },
+      "tokens": {
+        "displayLabel": false,
+        "icon": "PaletteIconChevronRight",
+        "width": 48
+      }
+    },
+    {
+      "if": {
+        "direction": "previous",
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "displayLabel": false,
+        "icon": "PaletteIconChevronLeft",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "width": 48
+      }
+    },
+    {
+      "if": {
+        "direction": "next",
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "displayLabel": false,
+        "icon": "PaletteIconChevronRight",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "width": 48
+      }
+    },
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.97647,
+          "green": 0.94902,
+          "blue": 0.86667,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.38824,
+          "green": 0.42353,
+          "blue": 0.54902,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.97647,
+          "green": 0.94902,
+          "blue": 0.86667,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "direction": "next"
+      },
+      "tokens": {
+        "borderRightWidth": 1
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomWidth": 0,
+    "borderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderLeftWidth": 0,
+    "borderRadius": 0,
+    "borderRightWidth": 1,
+    "borderTopWidth": 0,
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "displayLabel": true,
+    "fontName": "SofiaPro",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "height": 48,
+    "icon": null,
+    "iconDisplace": 0,
+    "iconSize": 14,
+    "lineHeight": 1.5,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderWidth": 0,
+    "paddingBottom": 8,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 8,
+    "textAlign": "center",
+    "textLine": "none",
+    "width": null
+  }
+}

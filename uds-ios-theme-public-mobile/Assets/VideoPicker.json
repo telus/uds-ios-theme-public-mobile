@@ -1,0 +1,28 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "framedContainerBackgroundColor": {
+      "red": 0.96078,
+      "green": 0.96078,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "framedContainerBorderColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "framedContainerBorderRadius": 4,
+    "framedContainerBorderWidth": 1,
+    "framedContainerPadding": 24,
+    "framedMaxHeight": 640,
+    "stackViewDividerColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    }
+  }
+}

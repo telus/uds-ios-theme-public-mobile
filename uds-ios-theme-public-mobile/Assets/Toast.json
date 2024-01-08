@@ -1,0 +1,74 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "animationPaddingBottomAfter": 8,
+        "animationPaddingTopAfter": 8
+      }
+    }
+  ],
+  "tokens": {
+    "animationBackgroundColorAfter": {
+      "red": 0.98824,
+      "green": 0.97255,
+      "blue": 0.93333,
+      "alpha": 1
+    },
+    "animationBackgroundColorBefore": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "animationColorAfter": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "animationColorBefore": {
+      "red": 0.99608,
+      "green": 0.99608,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "animationDivColorAfter": {
+      "red": 0.38824,
+      "green": 0.42353,
+      "blue": 0.54902,
+      "alpha": 1
+    },
+    "animationDivColorBefore": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "animationHeightAfter": 24,
+    "animationHeightBefore": 0,
+    "animationPaddingBottomAfter": 16,
+    "animationPaddingBottomBefore": 0,
+    "animationPaddingTopAfter": 16,
+    "animationPaddingTopBefore": 0,
+    "chevronlinkFontName": "SofiaPro",
+    "chevronlinkFontWeight": 400,
+    "containerBackgroundColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "containerGap": 12,
+    "padding": 16
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "appearances": {
+    "active": {
+      "description": "Used to mark currently active Item or and ItemGroup containing the currently active Item",
+      "values": [true, false],
+      "type": "state"
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "type": {
+      "description": "`parent` being the toggle button for an ItemsGroup, and `child` an element of the ItemGroup",
+      "values": ["child", "parent"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "type": "child"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.96078,
+          "green": 0.92941,
+          "blue": 0.92941,
+          "alpha": 1
+        },
+        "fontName": "SofiaPro",
+        "fontWeight": 400
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "type": "child"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "backgroundColor": {
+          "red": 0.96078,
+          "green": 0.96078,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "fontName": "SofiaPro",
+        "fontSize": 16,
+        "fontWeight": 700
+      }
+    },
+    {
+      "if": {
+        "active": true
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "backgroundColor": {
+          "red": 0.96078,
+          "green": 0.96078,
+          "blue": 0.96863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "type": "parent"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "backgroundColor": {
+          "red": 0.97647,
+          "green": 0.80784,
+          "blue": 0.74902,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "accentBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "accentOffset": 0,
+    "accentPadding": 0,
+    "accentWidth": 4,
+    "backgroundColor": {
+      "red": 0.97647,
+      "green": 0.80784,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    },
+    "borderStyle": "solid",
+    "borderWidth": 1,
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "fontName": "SofiaPro",
+    "fontSize": 18,
+    "fontWeight": 700,
+    "justifyContent": "flex-start",
+    "lineHeight": 1.56,
+    "paddingBottom": 10,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingTop": 10
+  }
+}

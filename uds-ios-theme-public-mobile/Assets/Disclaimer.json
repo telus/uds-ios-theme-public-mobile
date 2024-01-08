@@ -1,0 +1,16 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "fontName": "SofiaPro",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": 1.4285714285714286
+  }
+}

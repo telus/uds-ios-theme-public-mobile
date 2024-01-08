@@ -1,0 +1,175 @@
+{
+  "appearances": {
+    "spacing": {
+      "description": "Adjusts the height of the table cell",
+      "type": "variant",
+      "values": ["compact", "default"]
+    },
+    "text": {
+      "type": "variant",
+      "values": ["small", "medium"]
+    },
+    "type": {
+      "type": "variant",
+      "values": ["subHeading", "rowHeading", "heading", "default"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "spacing": "compact"
+      },
+      "tokens": {
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8
+      }
+    },
+    {
+      "if": {
+        "type": "heading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.97647,
+          "green": 0.80784,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "cellBoxShadowColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "fontName": "SofiaPro",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": 1.55555555
+      }
+    },
+    {
+      "if": {
+        "text": "medium",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.98824,
+          "green": 0.97255,
+          "blue": 0.93333,
+          "alpha": 1
+        },
+        "fontName": "SofiaPro",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": 1.55555555
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.98824,
+          "green": 0.97255,
+          "blue": 0.93333,
+          "alpha": 1
+        },
+        "fontName": "SofiaPro",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontName": "SofiaPro",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": 1.55555555
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "default"
+      },
+      "tokens": {
+        "fontSize": 16,
+        "lineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontSize": 16,
+        "lineHeight": 1.5
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderWidth": 0,
+    "cellBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "cellBoxShadowColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "cellMinWidth": 0,
+    "cellPaddingBottom": 16,
+    "cellPaddingLeft": 16,
+    "cellPaddingRight": 16,
+    "cellPaddingTop": 16,
+    "cellStickyShadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 4,
+      "blur": 8,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.1
+      }
+    },
+    "display": null,
+    "fontColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "fontName": "SofiaPro",
+    "fontSize": 18,
+    "fontWeight": 400,
+    "lineHeight": 1.55555555,
+    "stickyBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "tablePaddingBottom": 24
+  }
+}

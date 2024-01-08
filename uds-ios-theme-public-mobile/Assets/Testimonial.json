@@ -1,0 +1,47 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "additionalFontName": "SofiaPro",
+    "additionalFontSize": 14,
+    "additionalFontWeight": 400,
+    "additionalLineHeight": 1.4285714285714286,
+    "authorFontName": "SofiaPro",
+    "authorFontSize": 18,
+    "authorFontWeight": 700,
+    "authorLineHeight": 1.55555555,
+    "dividerBackgroundColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "dividerBorder": 1,
+    "figcaptionGap": 12,
+    "icon": "PaletteIconQuoteLeft",
+    "iconColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "iconFr": "PaletteIconQuoteLeftArrow",
+    "imageSize": 48,
+    "quoteContainerGap": 4,
+    "testimonialContainerGap": 12,
+    "testimonialFontNameHeading": "SofiaPro",
+    "testimonialFontNameLarge": "SofiaPro",
+    "testimonialFontSizeHeading": 30,
+    "testimonialFontSizeLarge": 20,
+    "testimonialFontWeightHeading": 700,
+    "testimonialFontWeightLarge": 400,
+    "testimonialLineHeightHeading": 1.2,
+    "testimonialLineHeightLarge": 1.4,
+    "textColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    }
+  }
+}

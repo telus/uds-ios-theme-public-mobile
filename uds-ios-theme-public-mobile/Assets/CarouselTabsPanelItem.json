@@ -1,0 +1,190 @@
+{
+  "appearances": {
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "borderBottomWidth": 2,
+        "color": {
+          "red": 0.96471,
+          "green": 0.7098,
+          "blue": 0.62745,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.97647,
+          "green": 0.94902,
+          "blue": 0.86667,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true,
+        "inverse": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "selected": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.97647,
+          "green": 0.80784,
+          "blue": 0.74902,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "alignItems": "flex-start",
+    "borderBottomColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomStyle": "solid",
+    "borderBottomWidth": 0,
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "flex": 1,
+    "fontName": "SofiaPro",
+    "fontScaleCap": 64,
+    "fontSize": 16,
+    "fontWeight": 700,
+    "justifyContent": "flex-start",
+    "letterSpacing": 0,
+    "lineHeight": 1.5,
+    "paddingBottom": 16,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "appearances": {
+    "focus": {
+      "description": "Focus states for some input elements are well supported across web, RN, ios and android",
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "numeric": {
+      "description": "capability to only allow numbers",
+      "type": "variant",
+      "values": [true]
+    },
+    "password": {
+      "description": "password mask and unmask",
+      "type": "variant",
+      "values": [true]
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.16863,
+          "green": 0.5098,
+          "blue": 0.43137,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheckMark",
+        "iconColor": {
+          "red": 0.16863,
+          "green": 0.5098,
+          "blue": 0.43137,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        },
+        "icon": "PaletteIconXMarkCircle",
+        "iconColor": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "focus": true
+      },
+      "tokens": {
+        "icon": null,
+        "outerBackgroundColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "outerBorderWidth": 2
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.61176,
+          "green": 0.62353,
+          "blue": 0.66667,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "amexIcon": "PaletteIconAmex",
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "buttonSize": 32,
+    "buttonsGap": 1,
+    "buttonsPaddingRight": 10,
+    "clearButtonIcon": "PaletteIconEyeUnmasked",
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "defaultCreditIcon": "PaletteIconCreditCard",
+    "fontName": "SofiaPro",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconSize": 24,
+    "leftIconPaddingBottom": 5,
+    "lineHeight": 1.5,
+    "masterCardIcon": "PaletteIconMasterCard",
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderWidth": 2,
+    "paddingBottom": 10,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 10,
+    "passwordHideButtonIcon": "PaletteIconEyeMasked",
+    "passwordShowButtonIcon": "PaletteIconEyeUnmasked",
+    "visaIcon": "PaletteIconVisa"
+  }
+}

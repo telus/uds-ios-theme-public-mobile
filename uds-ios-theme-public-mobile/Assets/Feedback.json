@@ -1,0 +1,112 @@
+{
+  "appearances": {
+    "icon": {
+      "type": "variant",
+      "values": [true]
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.91765,
+          "green": 0.95294,
+          "blue": 0.9451,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.97647,
+          "green": 0.9098,
+          "blue": 0.91373,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "icon": true,
+        "validation": "success"
+      },
+      "tokens": {
+        "icon": "PaletteIconCheckMark",
+        "iconColor": {
+          "red": 0.16863,
+          "green": 0.5098,
+          "blue": 0.43137,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "icon": true,
+        "validation": "error"
+      },
+      "tokens": {
+        "icon": "PaletteIconError",
+        "iconColor": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.96078,
+      "green": 0.96078,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": 4,
+    "borderWidth": 0,
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "contentFontSize": 18,
+    "fontName": "SofiaPro",
+    "fontWeight": 400,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconGap": 8,
+    "iconSize": 24,
+    "lineHeight": 1.5,
+    "paddingBottom": 12,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 12,
+    "space": 2,
+    "titleFontSize": 18
+  }
+}

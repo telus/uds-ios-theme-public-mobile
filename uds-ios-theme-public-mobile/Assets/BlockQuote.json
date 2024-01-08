@@ -1,0 +1,72 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm", "md"]
+      },
+      "tokens": {
+        "titleHeadingFontName": "SofiaPro",
+        "titleHeadingFontSize": 30,
+        "titleHeadingFontWeight": 700,
+        "titleHeadingLineHeight": 1.2
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundGradient": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        {
+          "stop": 0,
+          "color": {
+            "red": 0.95294,
+            "green": 0.61569,
+            "blue": 0.50196,
+            "alpha": 1
+          }
+        },
+        {
+          "stop": 1,
+          "color": {
+            "red": 0.95294,
+            "green": 0.61569,
+            "blue": 0.50196,
+            "alpha": 1
+          }
+        }
+      ]
+    },
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "linkFontName": "SofiaPro",
+    "linkFontSize": 18,
+    "linkFontWeight": 700,
+    "linkLineHeight": 1.55555555,
+    "marginBottom": 16,
+    "paddingBottom": 16,
+    "paddingLeft": 32,
+    "paddingRight": 32,
+    "paddingTop": 16,
+    "titleFontName": "SofiaPro",
+    "titleFontSize": 20,
+    "titleFontWeight": 400,
+    "titleHeadingFontName": "SofiaPro",
+    "titleHeadingFontSize": 30,
+    "titleHeadingFontWeight": 700,
+    "titleHeadingLineHeight": 1.2,
+    "titleLineHeight": 1.4,
+    "width": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderRadius": 8,
+    "borderWidth": 1,
+    "flex": 1,
+    "minWidth": null,
+    "paddingBottom": 8,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 8,
+    "shadow": null
+  }
+}

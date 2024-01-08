@@ -1,0 +1,43 @@
+{
+  "appearances": {
+    "equalWidth": {
+      "description": "Divide the available width equally among `TabsItem`",
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "description": "Styles the link white for use on dark backgrounds.",
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.97647,
+          "green": 0.94902,
+          "blue": 0.86667,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "borderBottomColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderBottomWidth": 1,
+    "buttonClearance": 32,
+    "gutter": null,
+    "nextIcon": "PaletteIconChevronRight",
+    "previousIcon": "PaletteIconChevronLeft",
+    "space": 0
+  }
+}

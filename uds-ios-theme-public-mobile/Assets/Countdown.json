@@ -1,0 +1,128 @@
+{
+  "appearances": {
+    "feature": {
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "label": {
+      "type": "variant",
+      "values": [true]
+    },
+    "large": {
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "containerPaddingBottomTop": 16,
+        "containerPaddingLeftRight": 24,
+        "labelFontSize": 14,
+        "labelLineHeight": 1.4285714285714286,
+        "textLineHeight": 1.28571428571
+      }
+    },
+    {
+      "if": {
+        "feature": true
+      },
+      "tokens": {
+        "containerBorderColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "labelLineHeight": 1.55555555,
+        "textFontSize": 72,
+        "textLineHeight": 1.2,
+        "textTimerFontName": "SofiaPro",
+        "textTimerFontWeight": 700
+      }
+    },
+    {
+      "if": {
+        "large": true
+      },
+      "tokens": {
+        "labelLineHeight": 1.55555555,
+        "textFontSize": 72,
+        "textLineHeight": 1.2,
+        "textTimerFontName": "SofiaPro",
+        "textTimerFontWeight": 700
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "containerBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "labelBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "containerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "containerBorderRadius": 6,
+    "containerBorderWidth": 2,
+    "containerGradient": null,
+    "containerInverseBorder": 2,
+    "containerInverseBorderColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "containerPaddingBottomTop": 48,
+    "containerPaddingLeftRight": 64,
+    "inverseBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "labelBorderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "labelFontName": "SofiaPro",
+    "labelFontSize": 18,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "textFontSize": 18,
+    "textLineHeight": 1.5,
+    "textTimerFontName": "SofiaPro",
+    "textTimerFontWeight": 400
+  }
+}

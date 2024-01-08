@@ -1,0 +1,34 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "rangeBackground": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "thumbBackground": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "thumbHeight": 8,
+    "thumbWidth": 8,
+    "timestampMarginLeft": 8,
+    "timestampMarginRight": 8,
+    "trackGradientEnd": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    },
+    "trackGradientStart": {
+      "red": 0.95294,
+      "green": 0.61569,
+      "blue": 0.50196,
+      "alpha": 1
+    }
+  }
+}

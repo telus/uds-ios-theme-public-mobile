@@ -1,0 +1,159 @@
+{
+  "appearances": {
+    "color": {
+      "description": "Use colour to change the colour",
+      "type": "variant",
+      "values": [
+        "brand",
+        "subtle",
+        "offer",
+        "success",
+        "danger",
+        "warning",
+        "inverse"
+      ]
+    },
+    "size": {
+      "description": "Use size to change the dimension of the icon",
+      "type": "variant",
+      "values": ["micro", "small", "large", "extraLarge"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "size": 16
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "size": 20
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "size": 32
+      }
+    },
+    {
+      "if": {
+        "size": "extraLarge"
+      },
+      "tokens": {
+        "size": 48
+      }
+    },
+    {
+      "if": {
+        "color": "brand"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.41569,
+          "green": 0.43922,
+          "blue": 0.50196,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "offer"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "success"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.16863,
+          "green": 0.5098,
+          "blue": 0.43137,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "warning"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "scale": 1,
+    "size": 24,
+    "translateX": 0,
+    "translateY": 0
+  }
+}

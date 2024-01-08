@@ -1,0 +1,35 @@
+{
+  "appearances": {
+    "size": {
+      "type": "variant",
+      "values": ["mini"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "mini"
+      },
+      "tokens": {
+        "height": 8
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.96078,
+      "green": 0.96078,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "borderRadius": 12,
+    "borderWidth": 1,
+    "height": 16
+  }
+}

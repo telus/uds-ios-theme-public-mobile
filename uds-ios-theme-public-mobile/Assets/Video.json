@@ -1,0 +1,15 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "borderColor": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "pauseIcon": "PaletteIconPause",
+    "playIcon": "PaletteIconPlaySolid",
+    "replayIcon": "PaletteIconReplay"
+  }
+}

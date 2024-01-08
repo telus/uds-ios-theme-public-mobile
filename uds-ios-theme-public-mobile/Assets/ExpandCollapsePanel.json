@@ -1,0 +1,99 @@
+{
+  "appearances": {
+    "compact": {
+      "type": "variant",
+      "values": [true]
+    },
+    "mini": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "contentPaddingBottom": 16,
+        "contentPaddingLeft": 24,
+        "contentPaddingRight": 24,
+        "contentPaddingTop": 16
+      }
+    },
+    {
+      "if": {
+        "mini": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentPaddingBottom": 0,
+        "contentPaddingLeft": 0,
+        "contentPaddingRight": 0,
+        "contentPaddingTop": 0,
+        "expandDividerColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "collapseDuration": 250,
+    "contentPaddingBottom": 24,
+    "contentPaddingLeft": 24,
+    "contentPaddingRight": 24,
+    "contentPaddingTop": 24,
+    "contentPanelBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "contentPanelBorderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "contentPanelBorderWidth": 1,
+    "contentPanelFontColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "contentPanelFontName": "SofiaPro",
+    "contentPanelFontSize": 18,
+    "contentPanelFontWeight": 700,
+    "contentPanelLineHeight": 1.55555555,
+    "contentPanelPaddingBottom": 14,
+    "contentPanelPaddingLeft": 66,
+    "contentPanelPaddingRight": 24,
+    "contentPanelPaddingTop": 14,
+    "expandDividerColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "expandDividerWidth": 0,
+    "expandDuration": 300,
+    "marginBottom": 8
+  }
+}

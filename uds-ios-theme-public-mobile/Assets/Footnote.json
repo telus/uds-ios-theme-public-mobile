@@ -1,0 +1,123 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 32,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 16,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 16
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 40,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 24,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xl"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 40,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 24,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 16,
+        "footnoteHeaderPaddingTop": 24
+      }
+    }
+  ],
+  "tokens": {
+    "closeButtonBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "closeButtonBorderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "closeButtonBorderSize": 1,
+    "closeButtonHeight": 24,
+    "closeButtonIconSize": 16,
+    "closeButtonMarginBottom": 4,
+    "closeButtonMarginLeft": 4,
+    "closeButtonMarginRight": 12,
+    "closeButtonMarginTop": 12,
+    "closeButtonWidth": 24,
+    "closeIcon": "PaletteIconClose",
+    "footnoteBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "footnoteBodyBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "footnoteBodyPaddingBottom": 40,
+    "footnoteBodyPaddingLeft": 16,
+    "footnoteBodyPaddingRight": 16,
+    "footnoteBodyPaddingTop": 0,
+    "footnoteBorderColorMd": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
+    "footnoteBorderTopSizeMd": 1,
+    "footnoteHeaderPaddingBottom": 24,
+    "footnoteHeaderPaddingLeft": 16,
+    "footnoteHeaderPaddingRight": 4,
+    "footnoteHeaderPaddingTop": 24,
+    "headerFontName": "SofiaPro",
+    "headerFontSize": 16,
+    "headerFontWeight": 700,
+    "headerLineHeight": 1.5,
+    "headerMargin": 16,
+    "listItemColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "listItemFontSize": 16,
+    "listItemLineHeight": 1.5,
+    "listItemMarkerFontSize": 16,
+    "listItemMarkerLineHeight": 1.5,
+    "listItemPaddingLeft": 8,
+    "listPaddingLeft": 32
+  }
+}

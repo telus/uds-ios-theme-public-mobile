@@ -1,0 +1,114 @@
+{
+  "appearances": {
+    "focus": {
+      "description": "Focus states for some input elements are well supported across web, RN, ios and android",
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "focus": true
+      },
+      "tokens": {
+        "outerBorderColor": {
+          "red": 0.95294,
+          "green": 0.61569,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "outerBorderWidth": 3
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.61176,
+          "green": 0.62353,
+          "blue": 0.66667,
+          "alpha": 1
+        },
+        "placeholderColor": {
+          "red": 0.61176,
+          "green": 0.62353,
+          "blue": 0.66667,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "buttonsGap": 2,
+    "clearButtonIcon": "PaletteIconClose",
+    "color": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "fontName": "SofiaPro",
+    "fontSize": 18,
+    "fontWeight": 400,
+    "lineHeight": 1.55555555,
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderRadius": 32,
+    "outerBorderWidth": 0,
+    "paddingBottom": 10,
+    "paddingLeft": 16,
+    "paddingRight": 6,
+    "paddingTop": 10,
+    "placeholderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "submitButtonIcon": "PaletteIconSearch"
+  }
+}

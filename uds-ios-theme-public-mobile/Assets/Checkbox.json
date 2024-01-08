@@ -1,0 +1,125 @@
+{
+  "appearances": {
+    "checked": {
+      "description": "Corresponds to a selected state for a checkbox or radio",
+      "values": [true],
+      "type": "state"
+    },
+    "error": {
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "error": true
+      },
+      "tokens": {
+        "inputBorderColor": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "iconBackgroundColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0.61176,
+          "green": 0.62353,
+          "blue": 0.66667,
+          "alpha": 1
+        },
+        "inputBackgroundColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 0.61176,
+          "green": 0.62353,
+          "blue": 0.66667,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "containerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "feedbackMarginBottom": 0,
+    "feedbackMarginTop": 2,
+    "feedbackPosition": "bottom",
+    "icon": "PaletteIconMobileCheckmark",
+    "iconBackgroundColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "iconColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "iconSize": 16,
+    "inputBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "inputBorderColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "inputBorderRadius": 4,
+    "inputBorderWidth": 2,
+    "inputHeight": 20,
+    "inputOutlineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "inputOutlineOffset": 0,
+    "inputOutlineWidth": 0,
+    "inputShadow": null,
+    "inputWidth": 20,
+    "labelColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "labelFontName": "SofiaPro",
+    "labelFontSize": 18,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "labelMarginLeft": 10
+  }
+}

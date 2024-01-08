@@ -1,0 +1,125 @@
+{
+  "appearances": {
+    "purpose": {
+      "type": "variant",
+      "values": ["offer", "default", "editorial", "subtle"]
+    },
+    "wrap": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "purpose": "editorial"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
+        "fontColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "purpose": "offer"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "purpose": "subtle"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "wrap": true
+      },
+      "tokens": {
+        "borderRadius": null,
+        "borderRadiusBottomLeft": 8,
+        "borderRadiusBottomRight": 8,
+        "paddingBottom": 6,
+        "paddingTop": 6
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "borderRadius": 50,
+    "borderRadiusBottomLeft": null,
+    "borderRadiusBottomRight": null,
+    "boxShadowColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "boxShadowPaddingBottom": null,
+    "boxShadowPaddingLeft": null,
+    "boxShadowPaddingRight": null,
+    "boxShadowPaddingTop": null,
+    "curveAfterBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "curveAfterHeight": null,
+    "curveAfterRadius": null,
+    "curveAfterWidth": null,
+    "curveBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "curveHeight": null,
+    "curveMarginTop": null,
+    "curveWidth": null,
+    "fontColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "fontName": "SofiaPro",
+    "fontSize": 14,
+    "fontWeight": 700,
+    "gradient": null,
+    "lineHeight": 1.4285714285714286,
+    "paddingBottom": 2,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 2
+  }
+}

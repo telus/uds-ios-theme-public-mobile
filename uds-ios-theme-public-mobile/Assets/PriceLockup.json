@@ -1,0 +1,120 @@
+{
+  "appearances": {
+    "size": {
+      "type": "variant",
+      "values": ["small", "medium", "large"]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "large",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "amountFontSize": 72,
+        "bottomTextFontSize": 20,
+        "centsFontSize": 48,
+        "centsLineHeight": 0.975,
+        "currencySymbolFontSize": 48,
+        "currencySymbolLineHeight": 1,
+        "rateFontName": "SofiaPro",
+        "rateFontSize": 20,
+        "rateFontWeight": 700,
+        "rateLineHeight": 1.25,
+        "strikeThroughHeight": 3,
+        "strikeThroughPosition": 33,
+        "topTextFontSize": 20,
+        "topTextLineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "amountFontSize": 36,
+        "bottomTextFontSize": 16,
+        "centsFontSize": 18,
+        "centsLineHeight": 0.975,
+        "currencySymbolFontSize": 18,
+        "currencySymbolLineHeight": 1.2,
+        "rateFontName": "SofiaPro",
+        "rateFontSize": 16,
+        "rateFontWeight": 700,
+        "rateLineHeight": 1.25,
+        "strikeThroughPosition": 16,
+        "topTextFontSize": 16,
+        "topTextLineHeight": 1.5
+      }
+    }
+  ],
+  "tokens": {
+    "amountFontName": "BystanderSans",
+    "amountFontSize": 48,
+    "amountFontWeight": 700,
+    "amountLetterSpacing": -0.039,
+    "amountLineHeight": 0.75,
+    "bottomLinksMarginLeft": 4,
+    "bottomTextFontSize": 18,
+    "bottomTextLineHeight": 1.6,
+    "bottomTextMarginTop": 0,
+    "centsFontName": "BystanderSans",
+    "centsFontSize": 20,
+    "centsFontWeight": 700,
+    "centsLineHeight": 1.2,
+    "currencySymbolFontName": "BystanderSans",
+    "currencySymbolFontSize": 20,
+    "currencySymbolFontWeight": 700,
+    "currencySymbolLineHeight": 1.2,
+    "dividerColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "fontColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "fontName": "SofiaPro",
+    "fontWeight": 700,
+    "footnoteGap": 4,
+    "footnoteLinkColor": {
+      "red": 0.38824,
+      "green": 0.42353,
+      "blue": 0.54902,
+      "alpha": 1
+    },
+    "footnoteLinkFontName": "SofiaPro",
+    "footnoteLinkFontSize": 16,
+    "footnoteLinkFontWeight": 700,
+    "footnoteLinkLineHeight": 1.4285714285714286,
+    "footnoteMarginTop": 0,
+    "priceMarginBottom": 4,
+    "rateFontName": "SofiaPro",
+    "rateFontSize": 18,
+    "rateFontWeight": 700,
+    "rateLineHeight": 1.25,
+    "strikeThroughColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "strikeThroughHeight": 2,
+    "strikeThroughPosition": 22,
+    "topTextFontName": "SofiaPro",
+    "topTextFontSize": 18,
+    "topTextFontWeight": 700,
+    "topTextLineHeight": 1.5,
+    "topTextMarginBottom": 4
+  }
+}

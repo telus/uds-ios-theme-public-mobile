@@ -1,0 +1,87 @@
+{
+  "appearances": {
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.61176,
+          "green": 0.62353,
+          "blue": 0.66667,
+          "alpha": 1
+        },
+        "itemFontColor": {
+          "red": 0.41569,
+          "green": 0.43922,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "itemIconColor": {
+          "red": 0.41569,
+          "green": 0.43922,
+          "blue": 0.50196,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.97647,
+      "green": 0.94902,
+      "blue": 0.86667,
+      "alpha": 1
+    },
+    "dividerColor": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "dividerSize": 1,
+    "iconMarginTop": 0,
+    "interItemMargin": 0,
+    "interItemMarginWithDivider": 0,
+    "itemBulletColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemBulletContainerAlign": "center",
+    "itemBulletContainerWidth": 0,
+    "itemBulletHeight": 0,
+    "itemBulletWidth": 0,
+    "itemFontColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "itemFontName": "SofiaPro",
+    "itemFontSize": 16,
+    "itemFontWeight": 700,
+    "itemIconColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "itemIconSize": 24,
+    "itemLineHeight": 1.5,
+    "itemUnderline": "none",
+    "listGutter": 16,
+    "paddingBottom": 12,
+    "paddingLeft": 4,
+    "paddingRight": 4,
+    "paddingTop": 12
+  }
+}

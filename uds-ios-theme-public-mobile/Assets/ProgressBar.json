@@ -1,0 +1,58 @@
+{
+  "appearances": {
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "negative": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "negative": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.16863,
+      "green": 0.5098,
+      "blue": 0.43137,
+      "alpha": 1
+    },
+    "borderRadius": 12,
+    "gradient": null,
+    "outlineColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "outlineWidth": 1
+  }
+}

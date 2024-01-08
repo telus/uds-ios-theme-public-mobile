@@ -1,0 +1,29 @@
+{
+  "appearances": {
+    "size": {
+      "type": "variant",
+      "values": ["small"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "size": 24,
+        "thickness": 4
+      }
+    }
+  ],
+  "tokens": {
+    "fullScreenOverLayBackground": {
+      "red": 0.61176,
+      "green": 0.62353,
+      "blue": 0.66667,
+      "alpha": 1
+    },
+    "size": 48,
+    "thickness": 4
+  }
+}
