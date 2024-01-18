@@ -4163,7 +4163,9 @@
           "blue": 0.33725,
           "alpha": 1
         },
+        "listItemFontName": "SofiaPro",
         "listItemFontSize": 16,
+        "listItemFontWeight": 400,
         "listItemLineHeight": 1.5,
         "listItemMarkerFontSize": 16,
         "listItemMarkerLineHeight": 1.5,
@@ -4182,6 +4184,7 @@
           "alpha": 0
         },
         "fontName": "SofiaPro",
+        "fontSize": 16,
         "fontWeight": 400,
         "lineHeight": 1,
         "paddingLeft": 2,
@@ -11597,7 +11600,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.49.0",
+    "themeTokensVersion": "2.50.0",
     "name": "theme-public-mobile"
   }
 }
