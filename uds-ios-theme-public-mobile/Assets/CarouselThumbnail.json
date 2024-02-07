@@ -18,7 +18,7 @@
       },
       "tokens": {
         "alignItems": "flex-start",
-        "size": 48
+        "size": 32
       }
     },
     {
@@ -55,7 +55,7 @@
       "blue": 0.50196,
       "alpha": 1
     },
-    "selectedBorderWidth": 1,
-    "size": 72
+    "selectedBorderWidth": 2,
+    "size": 56
   }
 }
