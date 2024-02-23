@@ -2,7 +2,11 @@
   "appearances": {
     "style": {
       "type": "variant",
-      "values": ["system", "subtle"]
+      "values": ["system", "success", "warning", "error", "subtle"]
+    },
+    "system": {
+      "values": [true],
+      "type": "state"
     },
     "validation": {
       "description": "Validation states for form inputs",
@@ -22,6 +26,22 @@
       },
       "tokens": {
         "justifyContent": "center"
+      }
+    },
+    {
+      "if": {
+        "system": true
+      },
+      "tokens": {
+        "borderLeftWidth": 0,
+        "borderRadius": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
+        "iconGap": 16,
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12
       }
     },
     {
@@ -59,6 +79,38 @@
     },
     {
       "if": {
+        "style": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.16863,
+          "green": 0.5098,
+          "blue": 0.43137,
+          "alpha": 1
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "dismissIconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheckMark",
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
         "validation": "success"
       },
       "tokens": {
@@ -91,6 +143,27 @@
     },
     {
       "if": {
+        "style": "warning"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98824,
+          "green": 0.90196,
+          "blue": 0.87451,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconWarningError",
+        "iconColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
         "validation": "warning"
       },
       "tokens": {
@@ -106,6 +179,33 @@
           "red": 0.22353,
           "green": 0.25098,
           "blue": 0.33725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.74902,
+          "green": 0.0902,
+          "blue": 0.13333,
+          "alpha": 1
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconWarningError",
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
           "alpha": 1
         }
       }
