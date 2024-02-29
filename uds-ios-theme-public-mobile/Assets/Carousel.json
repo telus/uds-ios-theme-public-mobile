@@ -24,6 +24,12 @@
       "blue": 0,
       "alpha": 0
     },
+    "iconBackgroundColor": {
+      "red": 0.99608,
+      "green": 0.99608,
+      "blue": 0.98824,
+      "alpha": 1
+    },
     "nextIcon": "PaletteIconChevronRight",
     "previousIcon": "PaletteIconChevronLeft",
     "showPanelNavigation": true,

@@ -2205,6 +2205,12 @@
           "blue": 0,
           "alpha": 0
         },
+        "iconBackgroundColor": {
+          "red": 0.99608,
+          "green": 0.99608,
+          "blue": 0.98824,
+          "alpha": 1
+        },
         "nextIcon": "PaletteIconChevronRight",
         "previousIcon": "PaletteIconChevronLeft",
         "showPanelNavigation": true,
@@ -9914,6 +9920,12 @@
         "expandTitleMarginY": 0,
         "expandTitlePaddingLeft": 0,
         "expandTitleUnderline": "none",
+        "headerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "icon": "PaletteIconChevronDown",
         "iconBackgroundColor": {
           "red": 0,
@@ -11760,7 +11772,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.52.0",
+    "themeTokensVersion": "2.52.1",
     "name": "theme-public-mobile"
   }
 }
