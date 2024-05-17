@@ -56,7 +56,7 @@
     "fontName": "SofiaPro",
     "fontSize": 18,
     "fontWeight": 700,
-    "gap": 32,
+    "gap": 5,
     "imageDimension": 140,
     "outerBorderColor": {
       "red": 0,
