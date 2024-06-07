@@ -50,6 +50,7 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderWidth": null,
         "paddingBottom": 0,
         "paddingLeft": 0,
         "paddingRight": 0,

@@ -95,6 +95,12 @@
     },
     "itemIconSize": 16,
     "itemLineHeight": 1.5,
+    "itemTextColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
     "listGutter": 16
   }
 }

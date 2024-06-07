@@ -36,12 +36,15 @@
         "contentPaddingLeft": 0,
         "contentPaddingRight": 0,
         "contentPaddingTop": 0,
+        "contentPanelPaddingBottom": 0,
+        "contentPanelPaddingTop": 0,
         "expandDividerColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
-        }
+        },
+        "marginBottom": 0
       }
     }
   ],
