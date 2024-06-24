@@ -1,5 +1,165 @@
 {
   "components": {
+    "ActionCard": {
+      "appearances": {
+        "validation": {
+          "description": "Validation states for form inputs",
+          "values": ["error", "success", "warning"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "validation": "warning"
+          },
+          "tokens": {
+            "actionIconMarginLeft": 8,
+            "backgroundColor": {
+              "red": 0.98824,
+              "green": 0.90196,
+              "blue": 0.87451,
+              "alpha": 1
+            },
+            "statusIcon": "PaletteIconWarningError",
+            "statusIconColor": {
+              "red": 0.22353,
+              "green": 0.25098,
+              "blue": 0.33725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "validation": "error"
+          },
+          "tokens": {
+            "actionIconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "actionIconMarginLeft": 8,
+            "backgroundColor": {
+              "red": 0.74902,
+              "green": 0.0902,
+              "blue": 0.13333,
+              "alpha": 1
+            },
+            "contentFontColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "statusIcon": "PaletteIconWarningError",
+            "statusIconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "titleFontColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        }
+      ],
+      "tokens": {
+        "actionIcon": "PaletteIconArrowRight",
+        "actionIconColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "actionIconMarginBottom": 8,
+        "actionIconMarginLeft": 0,
+        "actionIconMarginRight": 0,
+        "actionIconMarginTop": 8,
+        "actionIconTranslate": 4,
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": null,
+        "borderWidth": null,
+        "contentFontColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "contentFontName": "SofiaPro",
+        "contentFontSize": 16,
+        "contentFontWeight": 400,
+        "contentLineHeight": 1.25,
+        "contentMarginBottom": 8,
+        "contentMarginLeft": 0,
+        "contentMarginRight": 0,
+        "contentMarginTop": 0,
+        "iconBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.05
+        },
+        "iconColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "iconMarginBottom": 0,
+        "iconMarginLeft": 0,
+        "iconMarginRight": 8,
+        "iconMarginTop": 0,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+        "statusIcon": null,
+        "statusIconColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "titleFontColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "titleFontName": "SofiaPro",
+        "titleFontSize": 16,
+        "titleFontWeight": 700,
+        "titleLineHeight": 1.5,
+        "titleMarginBottom": 8,
+        "titleMarginLeft": 0,
+        "titleMarginRight": 8,
+        "titleMarginTop": 8
+      }
+    },
     "ActivityIndicator": {
       "appearances": {
         "size": {
@@ -6483,9 +6643,12 @@
       "rules": [
         {
           "if": {
+            "system": true,
             "viewport": ["xl"]
           },
           "tokens": {
+            "containerPaddingLeft": 16,
+            "containerPaddingRight": 16,
             "justifyContent": "center"
           }
         },
@@ -6723,6 +6886,8 @@
           "blue": 0.33725,
           "alpha": 1
         },
+        "containerPaddingLeft": 16,
+        "containerPaddingRight": 16,
         "dismissButtonGap": 12,
         "dismissIcon": "PaletteIconMobileXClose",
         "dismissIconColor": {
@@ -6744,7 +6909,7 @@
         "iconGap": 16,
         "iconSize": 24,
         "justifyContent": "flex-start",
-        "lineHeight": 2.5,
+        "lineHeight": 1.55555555,
         "paddingBottom": 12,
         "paddingLeft": 12,
         "paddingRight": 12,
@@ -12343,7 +12508,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.57.0",
+    "themeTokensVersion": "2.58.0",
     "name": "theme-public-mobile"
   }
 }
