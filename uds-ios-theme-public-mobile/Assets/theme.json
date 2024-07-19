@@ -6886,8 +6886,8 @@
           "blue": 0.33725,
           "alpha": 1
         },
-        "containerPaddingLeft": 16,
-        "containerPaddingRight": 16,
+        "containerPaddingLeft": 0,
+        "containerPaddingRight": 0,
         "dismissButtonGap": 12,
         "dismissIcon": "PaletteIconMobileXClose",
         "dismissIconColor": {
@@ -7360,7 +7360,7 @@
       "appearances": {
         "size": {
           "type": "variant",
-          "values": ["small", "medium", "large"]
+          "values": ["micro", "small", "medium", "large"]
         },
         "viewport": {
           "description": "The size label for the current screen viewport based on the current screen width",
@@ -7388,6 +7388,26 @@
             "strikeThroughHeight": 3,
             "strikeThroughPosition": 33,
             "topTextFontSize": 20,
+            "topTextLineHeight": 1.5
+          }
+        },
+        {
+          "if": {
+            "size": "micro"
+          },
+          "tokens": {
+            "amountFontSize": 36,
+            "bottomTextFontSize": 16,
+            "centsFontSize": 18,
+            "centsLineHeight": 0.975,
+            "currencySymbolFontSize": 18,
+            "currencySymbolLineHeight": 1.2,
+            "rateFontName": "SofiaPro",
+            "rateFontSize": 16,
+            "rateFontWeight": 700,
+            "rateLineHeight": 1.25,
+            "strikeThroughPosition": 16,
+            "topTextFontSize": 16,
             "topTextLineHeight": 1.5
           }
         },
