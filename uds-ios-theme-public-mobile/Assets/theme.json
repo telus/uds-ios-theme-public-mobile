@@ -6325,10 +6325,10 @@
       ],
       "tokens": {
         "backdropColor": {
-          "red": 0.99608,
-          "green": 0.99608,
-          "blue": 0.98824,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.8
         },
         "backdropOpacity": 1,
         "backgroundColor": {
@@ -6984,10 +6984,10 @@
         "itemBulletTextAlign": "right",
         "itemBulletWidth": 4,
         "itemColor": {
-          "red": 0.22353,
-          "green": 0.25098,
-          "blue": 0.33725,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "itemFontName": "SofiaPro",
         "itemFontSize": 18,
@@ -6995,6 +6995,12 @@
         "itemLineHeight": 1.55555555,
         "itemMarginTop": 0,
         "itemPaddingTop": 0,
+        "itemTextColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
         "listGutter": 8
       }
     },
@@ -7371,12 +7377,12 @@
       "rules": [
         {
           "if": {
-            "size": "large",
-            "viewport": ["lg", "xl"]
+            "size": "large"
           },
           "tokens": {
             "amountFontSize": 72,
-            "bottomTextFontSize": 20,
+            "bottomTextFontSize": 18,
+            "bottomTextLineHeight": 1.55555555,
             "centsFontSize": 48,
             "centsLineHeight": 0.975,
             "currencySymbolFontSize": 48,
@@ -7387,8 +7393,20 @@
             "rateLineHeight": 1.25,
             "strikeThroughHeight": 3,
             "strikeThroughPosition": 33,
+            "topTextFontSize": 18,
+            "topTextLineHeight": 1.55555555
+          }
+        },
+        {
+          "if": {
+            "size": "large",
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "bottomTextFontSize": 20,
+            "bottomTextLineHeight": 1.4,
             "topTextFontSize": 20,
-            "topTextLineHeight": 1.5
+            "topTextLineHeight": 1.4
           }
         },
         {
@@ -7398,6 +7416,7 @@
           "tokens": {
             "amountFontSize": 36,
             "bottomTextFontSize": 16,
+            "bottomTextLineHeight": 1.5,
             "centsFontSize": 18,
             "centsLineHeight": 0.975,
             "currencySymbolFontSize": 18,
@@ -7418,6 +7437,7 @@
           "tokens": {
             "amountFontSize": 36,
             "bottomTextFontSize": 16,
+            "bottomTextLineHeight": 1.5,
             "centsFontSize": 18,
             "centsLineHeight": 0.975,
             "currencySymbolFontSize": 18,
@@ -7440,7 +7460,7 @@
         "amountLineHeight": 0.75,
         "bottomLinksMarginLeft": 4,
         "bottomTextFontSize": 18,
-        "bottomTextLineHeight": 1.6,
+        "bottomTextLineHeight": 1.55555555,
         "bottomTextMarginTop": 0,
         "centsFontName": "BystanderSans",
         "centsFontSize": 20,
@@ -7492,7 +7512,7 @@
         "topTextFontName": "SofiaPro",
         "topTextFontSize": 18,
         "topTextFontWeight": 700,
-        "topTextLineHeight": 1.5,
+        "topTextLineHeight": 1.55555555,
         "topTextMarginBottom": 4
       }
     },
@@ -13076,7 +13096,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.60.0",
+    "themeTokensVersion": "2.61.0",
     "name": "theme-public-mobile"
   }
 }

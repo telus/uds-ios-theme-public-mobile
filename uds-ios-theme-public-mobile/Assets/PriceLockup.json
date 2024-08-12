@@ -13,12 +13,12 @@
   "rules": [
     {
       "if": {
-        "size": "large",
-        "viewport": ["lg", "xl"]
+        "size": "large"
       },
       "tokens": {
         "amountFontSize": 72,
-        "bottomTextFontSize": 20,
+        "bottomTextFontSize": 18,
+        "bottomTextLineHeight": 1.55555555,
         "centsFontSize": 48,
         "centsLineHeight": 0.975,
         "currencySymbolFontSize": 48,
@@ -29,8 +29,20 @@
         "rateLineHeight": 1.25,
         "strikeThroughHeight": 3,
         "strikeThroughPosition": 33,
+        "topTextFontSize": 18,
+        "topTextLineHeight": 1.55555555
+      }
+    },
+    {
+      "if": {
+        "size": "large",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "bottomTextFontSize": 20,
+        "bottomTextLineHeight": 1.4,
         "topTextFontSize": 20,
-        "topTextLineHeight": 1.5
+        "topTextLineHeight": 1.4
       }
     },
     {
@@ -40,6 +52,7 @@
       "tokens": {
         "amountFontSize": 36,
         "bottomTextFontSize": 16,
+        "bottomTextLineHeight": 1.5,
         "centsFontSize": 18,
         "centsLineHeight": 0.975,
         "currencySymbolFontSize": 18,
@@ -60,6 +73,7 @@
       "tokens": {
         "amountFontSize": 36,
         "bottomTextFontSize": 16,
+        "bottomTextLineHeight": 1.5,
         "centsFontSize": 18,
         "centsLineHeight": 0.975,
         "currencySymbolFontSize": 18,
@@ -82,7 +96,7 @@
     "amountLineHeight": 0.75,
     "bottomLinksMarginLeft": 4,
     "bottomTextFontSize": 18,
-    "bottomTextLineHeight": 1.6,
+    "bottomTextLineHeight": 1.55555555,
     "bottomTextMarginTop": 0,
     "centsFontName": "BystanderSans",
     "centsFontSize": 20,
@@ -134,7 +148,7 @@
     "topTextFontName": "SofiaPro",
     "topTextFontSize": 18,
     "topTextFontWeight": 700,
-    "topTextLineHeight": 1.5,
+    "topTextLineHeight": 1.55555555,
     "topTextMarginBottom": 4
   }
 }

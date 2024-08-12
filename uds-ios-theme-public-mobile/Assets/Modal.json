@@ -121,10 +121,10 @@
   ],
   "tokens": {
     "backdropColor": {
-      "red": 0.99608,
-      "green": 0.99608,
-      "blue": 0.98824,
-      "alpha": 1
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0.8
     },
     "backdropOpacity": 1,
     "backgroundColor": {
