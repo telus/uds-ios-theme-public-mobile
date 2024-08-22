@@ -2054,7 +2054,14 @@
       "appearances": {
         "background": {
           "type": "variant",
-          "values": ["alternative", "subtle", "grid", "image", "feature"]
+          "values": [
+            "alternative",
+            "subtle",
+            "grid",
+            "image",
+            "feature",
+            "plain"
+          ]
         },
         "borderRadius": {
           "type": "variant",
@@ -2272,6 +2279,20 @@
               "blue": 0.50196,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "background": "plain"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.99216,
+              "green": 0.98824,
+              "blue": 0.96471,
+              "alpha": 1
+            },
+            "borderWidth": 0
           }
         },
         {
@@ -5603,7 +5624,7 @@
       "appearances": {},
       "rules": [],
       "tokens": {
-        "borderRadius": 4
+        "borderRadius": null
       }
     },
     "InputLabel": {
@@ -9088,6 +9109,10 @@
     },
     "Select": {
       "appearances": {
+        "active": {
+          "values": [true],
+          "type": "state"
+        },
         "focus": {
           "description": "Focus states for some input elements are well supported across web, RN, ios and android",
           "values": [true],
@@ -9183,6 +9208,14 @@
               "alpha": 1
             },
             "icon": null
+          }
+        },
+        {
+          "if": {
+            "active": true
+          },
+          "tokens": {
+            "icon": "PaletteIconChevronUp"
           }
         }
       ],
@@ -13096,7 +13129,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.61.0",
+    "themeTokensVersion": "2.62.0",
     "name": "theme-public-mobile"
   }
 }
