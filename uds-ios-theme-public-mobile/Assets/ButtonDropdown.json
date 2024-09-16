@@ -150,9 +150,9 @@
       "alpha": 1
     },
     "dividerColor": {
-      "red": 0.97647,
-      "green": 0.80784,
-      "blue": 0.74902,
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
       "alpha": 1
     },
     "fontName": "SofiaPro",
