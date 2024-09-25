@@ -1834,7 +1834,7 @@
       "appearances": {
         "iconPosition": {
           "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
-          "values": ["left", "right"],
+          "values": ["left", "right", "inline"],
           "type": "state"
         },
         "inactive": {
@@ -2668,6 +2668,10 @@
         "fieldSpace": 3,
         "outlineOffset": 8,
         "outlineWidth": 1,
+        "paddingBottom": 24,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 24,
         "showIcon": true,
         "space": 3
       }
@@ -4029,6 +4033,47 @@
           "alpha": 1
         },
         "width": 1
+      }
+    },
+    "DownloadApp": {
+      "appearances": {
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.69412,
+              "green": 0.7098,
+              "blue": 0.77255,
+              "alpha": 1
+            },
+            "borderRadius": 4
+          }
+        }
+      ],
+      "tokens": {
+        "androidENIcon": "PaletteIconAndroidEN",
+        "androidFRIcon": "PaletteIconAndroidFR",
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderGap": 2,
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "iosENIcon": "PaletteIconIOSEN",
+        "iosFRIcon": "PaletteIconIOSFR",
+        "padding": 1
       }
     },
     "ExpandCollapse": {
@@ -5833,7 +5878,7 @@
         },
         "iconPosition": {
           "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
-          "values": ["left", "right"],
+          "values": ["left", "right", "inline"],
           "type": "state"
         },
         "inverse": {
@@ -10651,6 +10696,165 @@
         "shadow": null
       }
     },
+    "TabBar": {
+      "appearances": {
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "paddingBottom": 0,
+            "paddingTop": 0
+          }
+        }
+      ],
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "borderTopColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "borderTopWidth": 1,
+        "gap": 8,
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 4
+      }
+    },
+    "TabBarItem": {
+      "appearances": {
+        "focus": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
+        "hover": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
+        "selected": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "focus": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.96078,
+              "green": 0.96078,
+              "blue": 0.96863,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.16863,
+              "green": 0.19216,
+              "blue": 0.27059,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 0.16863,
+              "green": 0.19216,
+              "blue": 0.27059,
+              "alpha": 1
+            },
+            "iconSize": 26
+          }
+        },
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "color": {
+              "red": 0.80392,
+              "green": 0.81176,
+              "blue": 0.83529,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 0.80392,
+              "green": 0.81176,
+              "blue": 0.83529,
+              "alpha": 1
+            },
+            "iconSize": 22
+          }
+        },
+        {
+          "if": {
+            "hover": true
+          },
+          "tokens": {
+            "iconSize": 26
+          }
+        }
+      ],
+      "tokens": {
+        "activeColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": 4,
+        "color": {
+          "red": 0.41569,
+          "green": 0.43922,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "fontName": "SofiaPro",
+        "fontWeight": 400,
+        "iconColor": {
+          "red": 0.41569,
+          "green": 0.43922,
+          "blue": 0.50196,
+          "alpha": 1
+        },
+        "iconSize": 24,
+        "lineHeight": 1.3333333333333333,
+        "paddingBottom": 4,
+        "paddingTop": 4
+      }
+    },
     "Table": {
       "appearances": {
         "spacing": {
@@ -13300,7 +13504,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.63.0",
+    "themeTokensVersion": "2.64.0",
     "name": "theme-public-mobile"
   }
 }
