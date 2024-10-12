@@ -53,6 +53,7 @@
       "blue": 0.33725,
       "alpha": 1
     },
-    "outlineWidth": 1
+    "outlineWidth": 1,
+    "shadow": null
   }
 }

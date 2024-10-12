@@ -89,6 +89,7 @@
     }
   ],
   "tokens": {
+    "alignItemsText": "flex-start",
     "amountFontName": "BystanderSans",
     "amountFontSize": 48,
     "amountFontWeight": 700,
