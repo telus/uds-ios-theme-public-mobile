@@ -47,7 +47,15 @@
     }
   ],
   "tokens": {
+    "buttonBorderColor": {
+      "red": 0.38824,
+      "green": 0.42353,
+      "blue": 0.54902,
+      "alpha": 1
+    },
     "buttonDirection": "row",
+    "buttonIconPadding": 4,
+    "buttonIconSize": 20,
     "contentMarginBottom": 32,
     "contentMarginLeft": 16,
     "contentMarginRight": 16,
@@ -64,6 +72,20 @@
     "headerFontSize": 24,
     "headerFontWeight": 700,
     "headerLineHeight": 1.28571428571,
+    "labelColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "labelFontName": "SofiaPro",
+    "labelFontSize": 18,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1,
+    "labelPaddingBottom": 8,
+    "labelPaddingLeft": 24,
+    "labelPaddingRight": 16,
+    "labelPaddingTop": 8,
     "maxHeightSize": 480,
     "maxWidthSize": 0,
     "minHeight": 0,

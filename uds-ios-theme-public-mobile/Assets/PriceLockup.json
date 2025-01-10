@@ -103,10 +103,12 @@
     "centsFontSize": 20,
     "centsFontWeight": 700,
     "centsLineHeight": 1.2,
+    "centsPaddingTop": 0,
     "currencySymbolFontName": "BystanderSans",
     "currencySymbolFontSize": 20,
     "currencySymbolFontWeight": 700,
     "currencySymbolLineHeight": 1.2,
+    "currencySymbolPaddingTop": 0,
     "dividerColor": {
       "red": 0,
       "green": 0,
