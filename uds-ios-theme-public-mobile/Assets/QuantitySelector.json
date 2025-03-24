@@ -27,6 +27,8 @@
         "alternative": true
       },
       "tokens": {
+        "fontSize": 16,
+        "lineHeight": 1.5,
         "paddingBottom": 8,
         "paddingTop": 8
       }

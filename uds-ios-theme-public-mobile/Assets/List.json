@@ -17,7 +17,7 @@
         "size": "large"
       },
       "tokens": {
-        "iconMarginTop": 6,
+        "iconMarginTop": 4,
         "itemFontSize": 20,
         "itemIconSize": 20,
         "itemLineHeight": 1.4
@@ -28,6 +28,7 @@
         "size": "small"
       },
       "tokens": {
+        "iconMarginTop": 2,
         "itemFontSize": 16,
         "itemLineHeight": 1.55555555
       }
@@ -69,7 +70,7 @@
       "alpha": 1
     },
     "dividerSize": 1,
-    "iconMarginTop": 0,
+    "iconMarginTop": 4,
     "interItemMargin": 8,
     "interItemMarginWithDivider": 16,
     "itemBulletColor": {
@@ -79,7 +80,8 @@
       "alpha": 1
     },
     "itemBulletContainerAlign": "center",
-    "itemBulletContainerWidth": 16,
+    "itemBulletContainerHeight": 20,
+    "itemBulletContainerWidth": 24,
     "itemFontName": "SofiaPro",
     "itemFontSize": 18,
     "itemFontWeight": 400,
@@ -89,7 +91,7 @@
       "blue": 0.33725,
       "alpha": 1
     },
-    "itemIconSize": 24,
+    "itemIconSize": 20,
     "itemLineHeight": 1.55555555,
     "itemTextColor": {
       "red": 0.22353,
