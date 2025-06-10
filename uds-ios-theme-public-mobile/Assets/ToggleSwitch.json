@@ -155,6 +155,10 @@
     "labelFontWeight": 400,
     "labelLineHeight": 1.55555555,
     "labelMarginLeft": 0,
+    "mobileSwitchSize": 24,
+    "mobileTrackBorderWidth": 4,
+    "mobileTrackHeight": 32,
+    "mobileWidth": 48,
     "opacity": 1,
     "outerBackgroundColor": {
       "red": 0,

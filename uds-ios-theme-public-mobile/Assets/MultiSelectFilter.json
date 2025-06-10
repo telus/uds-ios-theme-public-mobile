@@ -97,12 +97,24 @@
     },
     "buttonIconPadding": 4,
     "buttonIconSize": 20,
+    "containerBorderColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
     "contentMarginBottom": 32,
     "contentMarginLeft": 16,
     "contentMarginRight": 16,
     "contentMarginTop": 24,
     "contentPaddingLeft": 16,
     "contentPaddingRight": 16,
+    "dividerColor": {
+      "red": 0.80392,
+      "green": 0.81176,
+      "blue": 0.83529,
+      "alpha": 1
+    },
     "headerFontColor": {
       "red": 0.22353,
       "green": 0.25098,

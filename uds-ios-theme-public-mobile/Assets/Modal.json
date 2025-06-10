@@ -130,9 +130,9 @@
     },
     "backdropOpacity": 1,
     "backgroundColor": {
-      "red": 1,
-      "green": 1,
-      "blue": 1,
+      "red": 0.99608,
+      "green": 0.99608,
+      "blue": 0.98824,
       "alpha": 1
     },
     "borderColor": {

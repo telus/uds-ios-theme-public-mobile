@@ -7635,9 +7635,9 @@
         },
         "backdropOpacity": 1,
         "backgroundColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0.99608,
+          "green": 0.99608,
+          "blue": 0.98824,
           "alpha": 1
         },
         "borderColor": {
@@ -7804,12 +7804,24 @@
         },
         "buttonIconPadding": 4,
         "buttonIconSize": 20,
+        "containerBorderColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
         "contentMarginBottom": 32,
         "contentMarginLeft": 16,
         "contentMarginRight": 16,
         "contentMarginTop": 24,
         "contentPaddingLeft": 16,
         "contentPaddingRight": 16,
+        "dividerColor": {
+          "red": 0.80392,
+          "green": 0.81176,
+          "blue": 0.83529,
+          "alpha": 1
+        },
         "headerFontColor": {
           "red": 0.22353,
           "green": 0.25098,
@@ -13599,6 +13611,10 @@
         "labelFontWeight": 400,
         "labelLineHeight": 1.55555555,
         "labelMarginLeft": 0,
+        "mobileSwitchSize": 24,
+        "mobileTrackBorderWidth": 4,
+        "mobileTrackHeight": 32,
+        "mobileWidth": 48,
         "opacity": 1,
         "outerBackgroundColor": {
           "red": 0,
@@ -14864,7 +14880,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.6.0",
+    "themeTokensVersion": "4.7.0",
     "name": "theme-public-mobile"
   }
 }
