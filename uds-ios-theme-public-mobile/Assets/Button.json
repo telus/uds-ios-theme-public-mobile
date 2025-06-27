@@ -562,6 +562,7 @@
       "blue": 0.50196,
       "alpha": 1
     },
+    "flex": 0,
     "fontName": "SofiaPro",
     "fontSize": 18,
     "fontWeight": 400,

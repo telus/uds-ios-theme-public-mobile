@@ -1569,6 +1569,7 @@
           "blue": 0.50196,
           "alpha": 1
         },
+        "flex": 0,
         "fontName": "SofiaPro",
         "fontSize": 18,
         "fontWeight": 400,
@@ -1830,15 +1831,15 @@
           "type": "state"
         },
         "width": {
-          "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+          "description": "Available in default, responsive or equal. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport, equal divide the available width equally among `ButtonGroup`",
           "type": "variant",
-          "values": ["responsive"]
+          "values": ["responsive", "equal"]
         }
       },
       "rules": [
         {
           "if": {
-            "viewport": ["lg", "xl"]
+            "viewport": ["md", "lg", "xl"]
           },
           "tokens": {
             "gap": 3,
@@ -1889,7 +1890,7 @@
         "gap": 2,
         "justifyContent": "flex-start",
         "padding": 0,
-        "space": 1
+        "space": 2
       }
     },
     "ButtonGroupItem": {
@@ -1914,18 +1915,40 @@
           "values": [true],
           "type": "state"
         },
+        "size": {
+          "type": "variant",
+          "values": ["small"]
+        },
         "style": {
           "description": "Configure `style` variant for `ButtonGroupItem`",
           "type": "variant",
           "values": ["contained"]
         },
         "width": {
-          "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+          "description": "Available in default, responsive or equal. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport, equal divide the available width equally among `ButtonGroup`",
           "type": "variant",
-          "values": ["responsive"]
+          "values": ["responsive", "equal"]
         }
       },
       "rules": [
+        {
+          "if": {
+            "width": "equal"
+          },
+          "tokens": {
+            "width": "100%"
+          }
+        },
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "height": 36,
+            "paddingBottom": 6,
+            "paddingTop": 6
+          }
+        },
         {
           "if": {
             "pressed": true
@@ -2066,6 +2089,17 @@
         },
         {
           "if": {
+            "size": "small",
+            "style": "contained"
+          },
+          "tokens": {
+            "height": 32,
+            "paddingBottom": 6,
+            "paddingTop": 6
+          }
+        },
+        {
+          "if": {
             "selected": true,
             "style": "contained"
           },
@@ -2151,10 +2185,10 @@
         },
         "outerBorderGap": 0,
         "outerBorderWidth": 2,
-        "paddingBottom": 8,
+        "paddingBottom": 10,
         "paddingLeft": 16,
         "paddingRight": 16,
-        "paddingTop": 8,
+        "paddingTop": 10,
         "shadow": null,
         "textAlign": "center",
         "width": null
@@ -14880,7 +14914,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.7.0",
+    "themeTokensVersion": "4.9.0",
     "name": "theme-public-mobile"
   }
 }
