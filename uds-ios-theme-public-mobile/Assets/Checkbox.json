@@ -68,6 +68,17 @@
       "blue": 0,
       "alpha": 0
     },
+    "descriptionFontColor": {
+      "red": 0.22353,
+      "green": 0.25098,
+      "blue": 0.33725,
+      "alpha": 1
+    },
+    "descriptionFontName": "SofiaPro",
+    "descriptionFontSize": 16,
+    "descriptionFontWeight": 400,
+    "descriptionLineHeight": 1.5,
+    "descriptionMarginLeft": null,
     "feedbackMarginBottom": 0,
     "feedbackMarginTop": 2,
     "feedbackPosition": "bottom",

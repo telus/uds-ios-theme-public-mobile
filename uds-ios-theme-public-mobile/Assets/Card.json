@@ -522,6 +522,18 @@
     },
     {
       "if": {
+        "interactive": true,
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "paddingBottom": 45,
+        "paddingLeft": 29,
+        "paddingRight": 29,
+        "paddingTop": 45
+      }
+    },
+    {
+      "if": {
         "padding": "narrow"
       },
       "tokens": {
@@ -529,6 +541,18 @@
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "padding": "narrow"
+      },
+      "tokens": {
+        "paddingBottom": 21,
+        "paddingLeft": 13,
+        "paddingRight": 13,
+        "paddingTop": 21
       }
     },
     {
@@ -545,6 +569,19 @@
     },
     {
       "if": {
+        "interactive": true,
+        "padding": "narrow",
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "paddingBottom": 29,
+        "paddingLeft": 13,
+        "paddingRight": 13,
+        "paddingTop": 29
+      }
+    },
+    {
+      "if": {
         "padding": "intermediate"
       },
       "tokens": {
@@ -552,6 +589,18 @@
         "paddingLeft": 24,
         "paddingRight": 24,
         "paddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "padding": "intermediate"
+      },
+      "tokens": {
+        "paddingBottom": 21,
+        "paddingLeft": 21,
+        "paddingRight": 21,
+        "paddingTop": 21
       }
     },
     {
@@ -568,6 +617,19 @@
     },
     {
       "if": {
+        "interactive": true,
+        "padding": "intermediate",
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "paddingBottom": 29,
+        "paddingLeft": 29,
+        "paddingRight": 29,
+        "paddingTop": 29
+      }
+    },
+    {
+      "if": {
         "padding": "compact"
       },
       "tokens": {
@@ -575,6 +637,18 @@
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "padding": "compact"
+      },
+      "tokens": {
+        "paddingBottom": 13,
+        "paddingLeft": 13,
+        "paddingRight": 13,
+        "paddingTop": 13
       }
     },
     {

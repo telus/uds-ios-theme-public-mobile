@@ -2776,6 +2776,18 @@
         },
         {
           "if": {
+            "interactive": true,
+            "viewport": ["md", "lg", "xl"]
+          },
+          "tokens": {
+            "paddingBottom": 45,
+            "paddingLeft": 29,
+            "paddingRight": 29,
+            "paddingTop": 45
+          }
+        },
+        {
+          "if": {
             "padding": "narrow"
           },
           "tokens": {
@@ -2783,6 +2795,18 @@
             "paddingLeft": 16,
             "paddingRight": 16,
             "paddingTop": 24
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "padding": "narrow"
+          },
+          "tokens": {
+            "paddingBottom": 21,
+            "paddingLeft": 13,
+            "paddingRight": 13,
+            "paddingTop": 21
           }
         },
         {
@@ -2799,6 +2823,19 @@
         },
         {
           "if": {
+            "interactive": true,
+            "padding": "narrow",
+            "viewport": ["md", "lg", "xl"]
+          },
+          "tokens": {
+            "paddingBottom": 29,
+            "paddingLeft": 13,
+            "paddingRight": 13,
+            "paddingTop": 29
+          }
+        },
+        {
+          "if": {
             "padding": "intermediate"
           },
           "tokens": {
@@ -2806,6 +2843,18 @@
             "paddingLeft": 24,
             "paddingRight": 24,
             "paddingTop": 24
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "padding": "intermediate"
+          },
+          "tokens": {
+            "paddingBottom": 21,
+            "paddingLeft": 21,
+            "paddingRight": 21,
+            "paddingTop": 21
           }
         },
         {
@@ -2822,6 +2871,19 @@
         },
         {
           "if": {
+            "interactive": true,
+            "padding": "intermediate",
+            "viewport": ["md", "lg", "xl"]
+          },
+          "tokens": {
+            "paddingBottom": 29,
+            "paddingLeft": 29,
+            "paddingRight": 29,
+            "paddingTop": 29
+          }
+        },
+        {
+          "if": {
             "padding": "compact"
           },
           "tokens": {
@@ -2829,6 +2891,18 @@
             "paddingLeft": 16,
             "paddingRight": 16,
             "paddingTop": 16
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "padding": "compact"
+          },
+          "tokens": {
+            "paddingBottom": 13,
+            "paddingLeft": 13,
+            "paddingRight": 13,
+            "paddingTop": 13
           }
         },
         {
@@ -3463,6 +3537,17 @@
           "blue": 0,
           "alpha": 0
         },
+        "descriptionFontColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "descriptionFontName": "SofiaPro",
+        "descriptionFontSize": 16,
+        "descriptionFontWeight": 400,
+        "descriptionLineHeight": 1.5,
+        "descriptionMarginLeft": null,
         "feedbackMarginBottom": 0,
         "feedbackMarginTop": 2,
         "feedbackPosition": "bottom",
@@ -11926,8 +12011,8 @@
           "blue": 0.33725,
           "alpha": 1
         },
-        "knobCompletedPaddingLeft": 2,
-        "knobCompletedPaddingTop": 2,
+        "knobCompletedPaddingLeft": 0,
+        "knobCompletedPaddingTop": 0,
         "knobCurrentBackgroundColor": {
           "red": 0.22353,
           "green": 0.25098,
@@ -13626,6 +13711,7 @@
         },
         "borderRadius": 32,
         "borderWidth": 0,
+        "containerWidth": null,
         "icon": null,
         "iconColor": {
           "red": 0,
@@ -14914,7 +15000,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.9.0",
+    "themeTokensVersion": "4.10.0",
     "name": "theme-public-mobile"
   }
 }
