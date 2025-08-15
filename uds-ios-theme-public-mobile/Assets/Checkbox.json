@@ -130,7 +130,7 @@
     "labelFontName": "SofiaPro",
     "labelFontSize": 18,
     "labelFontWeight": 400,
-    "labelLineHeight": 1.5,
-    "labelMarginLeft": 10
+    "labelLineHeight": 1.55555555,
+    "labelMarginLeft": 8
   }
 }

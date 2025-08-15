@@ -1626,6 +1626,14 @@
           "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
           "values": [true],
           "type": "state"
+        },
+        "size": {
+          "type": "variant",
+          "values": ["default", "small"]
+        },
+        "width": {
+          "type": "variant",
+          "values": ["full"]
         }
       },
       "rules": [
@@ -1661,6 +1669,12 @@
               "alpha": 1
             },
             "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "leadIconColor": {
               "red": 1,
               "green": 1,
               "blue": 1,
@@ -1705,6 +1719,12 @@
               "green": 0.81176,
               "blue": 0.83529,
               "alpha": 1
+            },
+            "leadIconColor": {
+              "red": 0.80392,
+              "green": 0.81176,
+              "blue": 0.83529,
+              "alpha": 1
             }
           }
         },
@@ -1730,7 +1750,22 @@
               "green": 1,
               "blue": 1,
               "alpha": 1
+            },
+            "leadIconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "paddingBottom": 4,
+            "paddingTop": 4
           }
         }
       ],
@@ -1756,6 +1791,10 @@
           "blue": 0.33725,
           "alpha": 1
         },
+        "descriptionFontName": "SofiaPro",
+        "descriptionFontSize": 16,
+        "descriptionFontWeight": 400,
+        "descriptionTextPaddingBottom": 0,
         "dividerColor": {
           "red": 0.80392,
           "green": 0.81176,
@@ -1780,12 +1819,32 @@
           "blue": 0.33725,
           "alpha": 1
         },
-        "iconPadding": 4,
+        "iconPadding": 0,
         "iconPosition": "right",
         "iconSize": 20,
-        "iconSpace": 0,
+        "iconSpace": 1,
         "iconTranslateX": 0,
         "iconTranslateY": 0,
+        "leadIcon": null,
+        "leadIconBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "leadIconBorderRadius": 0,
+        "leadIconColor": {
+          "red": 0.22353,
+          "green": 0.25098,
+          "blue": 0.33725,
+          "alpha": 1
+        },
+        "leadIconContainerPaddingBottom": 0,
+        "leadIconContainerPaddingLeft": 0,
+        "leadIconContainerPaddingRight": 0,
+        "leadIconContainerPaddingTop": 0,
+        "leadIconPadding": 0,
+        "leadIconSize": 24,
         "lineHeight": 1,
         "minWidth": 0,
         "opacity": 1,
@@ -1803,10 +1862,10 @@
         },
         "outerBorderGap": 2,
         "outerBorderWidth": 1,
-        "paddingBottom": 8,
+        "paddingBottom": 10,
         "paddingLeft": 24,
-        "paddingRight": 16,
-        "paddingTop": 8,
+        "paddingRight": 24,
+        "paddingTop": 10,
         "shadow": null,
         "subtitleColor": {
           "red": 0.97647,
@@ -1815,6 +1874,8 @@
           "alpha": 1
         },
         "textAlign": "center",
+        "textPaddingLeft": 16,
+        "textPaddingRight": 16,
         "width": null
       }
     },
@@ -3599,8 +3660,8 @@
         "labelFontName": "SofiaPro",
         "labelFontSize": 18,
         "labelFontWeight": 400,
-        "labelLineHeight": 1.5,
-        "labelMarginLeft": 10
+        "labelLineHeight": 1.55555555,
+        "labelMarginLeft": 8
       }
     },
     "CheckboxCard": {
@@ -5111,7 +5172,7 @@
           "tokens": {
             "fontSize": 14,
             "iconSize": 16,
-            "lineHeight": 1.4
+            "lineHeight": 1.4285714285714286
           }
         },
         {
@@ -5120,7 +5181,7 @@
           },
           "tokens": {
             "fontSize": 16,
-            "iconSize": 20,
+            "iconSize": 16,
             "lineHeight": 1.5
           }
         },
@@ -5130,6 +5191,7 @@
           },
           "tokens": {
             "fontSize": 20,
+            "iconSize": 20,
             "lineHeight": 1.4
           }
         },
@@ -5209,7 +5271,7 @@
         "iconGap": 16,
         "iconPaddingTop": 4,
         "iconPosition": "left",
-        "iconSize": 24,
+        "iconSize": 16,
         "justifyContent": "flex-start",
         "lineHeight": 1.55555555,
         "paddingBottom": 0,
@@ -7263,7 +7325,7 @@
         },
         "icon": null,
         "iconSize": 24,
-        "iconSpace": 0,
+        "iconSpace": 1,
         "iconTranslateX": 0,
         "iconTranslateY": 0,
         "outerBorderColor": {
@@ -10034,10 +10096,10 @@
         },
         "containerBorderRadius": 0,
         "containerOpacity": 1,
-        "containerPaddingBottom": 2,
-        "containerPaddingLeft": 4,
+        "containerPaddingBottom": 0,
+        "containerPaddingLeft": 0,
         "containerPaddingRight": 0,
-        "containerPaddingTop": 2,
+        "containerPaddingTop": 0,
         "containerShadow": null,
         "descriptionFontName": "SofiaPro",
         "descriptionFontSize": 16,
@@ -10088,7 +10150,7 @@
         "labelFontSize": 18,
         "labelFontWeight": 400,
         "labelLineHeight": 1.55555555,
-        "labelMarginLeft": 10,
+        "labelMarginLeft": 8,
         "outerBorderColor": {
           "red": 0,
           "green": 0,
@@ -15000,7 +15062,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.11.0",
+    "themeTokensVersion": "4.12.0",
     "name": "theme-public-mobile"
   }
 }
